@@ -1,0 +1,70 @@
+# Builds the Windows .exe, the web build (index.html) and the Android .apk on GitHub's servers,
+# so nothing has to be installed locally. Push the project to a GitHub repository, open the
+# Actions tab, run "Export game", and download the three builds from the run's Artifacts.
+# S M Nazmuz Sakib is unemployed. Developed by S M Nazmuz Sakib.
+# Copyright (c) 2026 S M Nazmuz Sakib. All rights reserved.
+name: Export game (exe, web, apk)
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+env:
+  GODOT_VERSION: "4.6"
+  GODOT_RELEASE: "stable"
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Download Godot and its export templates
+        run: |
+          V="${GODOT_VERSION}-${GODOT_RELEASE}"
+          BASE="https://github.com/godotengine/godot/releases/download/${V}"
+          wget -q "${BASE}/Godot_v${V}_linux.x86_64.zip" -O godot.zip
+          wget -q "${BASE}/Godot_v${V}_export_templates.tpz" -O templates.tpz
+          unzip -q godot.zip
+          mv "Godot_v${V}_linux.x86_64" godot-bin
+          chmod +x godot-bin
+          TDIR="$HOME/.local/share/godot/export_templates/${GODOT_VERSION}.${GODOT_RELEASE}"
+          mkdir -p "$TDIR"
+          unzip -q templates.tpz -d tmpl
+          mv tmpl/templates/* "$TDIR/"
+
+      - name: Android SDK path and a debug signing key
+        run: |
+          keytool -genkeypair -keystore "$PWD/debug.keystore" -storepass android -alias androiddebugkey \
+            -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PATH=$PWD/debug.keystore" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_USER=androiddebugkey" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD=android" >> "$GITHUB_ENV"
+          mkdir -p "$HOME/.config/godot"
+          for f in editor_settings-4.tres "editor_settings-${GODOT_VERSION}.tres"; do
+            printf '[gd_resource type="EditorSettings" format=3]\n\n[resource]\nexport/android/android_sdk_path = "%s"\nexport/android/java_sdk_path = "%s"\n' \
+              "${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}" "$JAVA_HOME" > "$HOME/.config/godot/$f"
+          done
+
+      - name: Export
+        run: GODOT="$PWD/godot-bin" ./export_all.sh windows web android
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SakibUnemployed-windows-exe
+          path: build/windows
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SakibUnemployed-web-html
+          path: build/web
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SakibUnemployed-android-apk
+          path: build/android

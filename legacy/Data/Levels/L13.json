@@ -1,0 +1,202 @@
+{
+ "level": 13,
+ "title": "The paper van",
+ "chapter": "Chapter 4 · The N1",
+ "brief": "At dawn the papers leave Jatrabari in a white van. Sakib has one chance on the highway.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,m,,,m,,,m,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,1,,,,2,,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,k,,,,,,,,,r,,,,,bbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,B",
+   "B-----P-----C-----Y-----------------------P----B",
+   "B=@============================================B",
+   "B===================================c==========B",
+   "B===========c==================================B",
+   "B=========================r====================B",
+   "B-------------------C-------P-----Y------------B",
+   "B       3             k          bbbbbbbbbbbbbbB",
+   "B     c                4         bbbbbbbbbbbbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb          bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb X      X bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb    u     bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb       P  bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb   P      bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 8   X  6 bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb          bB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Pump attendant",
+   "gate": "L13_fuel",
+   "look": "guard",
+   "intro": "Fuel at dawn? First tell me you won't blow us all up."
+  },
+  "2": {
+   "type": "career",
+   "person": "Babu",
+   "lines": [
+    "My CNG eats half of what I earn. The other half goes to the owner."
+   ]
+  },
+  "3": {
+   "type": "callback",
+   "person": "Jahid",
+   "grateful": [
+    "reveal:60"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "4": {
+   "type": "callback",
+   "person": "Mitu",
+   "grateful": [
+    "reveal:45",
+    "resource:medical:1"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "5": {
+   "type": "driver",
+   "name": "Motorbike rider",
+   "gate": "L13_bike",
+   "key": "bike",
+   "to": "8",
+   "minutes": 15,
+   "text": "The bike screams down the N1 and cuts off the paper van in the service yard."
+  },
+  "6": {
+   "type": "pickup",
+   "key": "papers",
+   "label": "Take the boxes of papers from the van",
+   "toast": "Six sealed boxes. Tomorrow's exam, every subject."
+  },
+  "8": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L13_fuel",
+   "text": "Buy fuel from the pump attendant"
+  },
+  {
+   "type": "talk",
+   "person": "Babu",
+   "text": "Talk to Babu by his CNG"
+  },
+  {
+   "type": "talk",
+   "person": "Jahid",
+   "text": "Jahid has parked the graveyard pickup on the south side: talk to him"
+  },
+  {
+   "type": "talk",
+   "person": "Mitu",
+   "text": "Mitu is at the tea stall: talk to her"
+  },
+  {
+   "type": "ride",
+   "key": "bike",
+   "text": "Catch the paper van: ride with the motorbike rider"
+  },
+  {
+   "type": "eliminate",
+   "tag": "van",
+   "count": 3,
+   "text": "Take down the van crew"
+  },
+  {
+   "type": "pickup",
+   "key": "papers",
+   "text": "Seize the papers"
+  }
+ ],
+ "gates": {
+  "L13_fuel": {
+   "gatekeeper": "pump attendant",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-FUEL"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   }
+  },
+  "L13_bike": {
+   "gatekeeper": "motorbike rider",
+   "category": "ride",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "compose": [
+    {
+     "sets": [
+      "VEH-MOTORBIKE"
+     ],
+     "count": 3
+    },
+    {
+     "sets": [
+      "RS"
+     ],
+     "count": 2
+    }
+   ],
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 6.0,
+ "palette": "street",
+ "sector": "n1_frontage",
+ "crowd": 30,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "marker_tags": {
+  "X": "van"
+ },
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

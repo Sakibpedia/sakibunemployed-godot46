@@ -1,0 +1,31 @@
+{
+ "taunt": [
+  "এটাও জানো না? বিসিএস তো দূরের কথা!",
+  "আবার ভুল! আমার ক্লাস সেভেনের ভাগ্নেও এটা জানে।",
+  "এভাবে চললে চাকরি স্বপ্নই থাকবে।",
+  "বই খুলে দেখেছ কোনোদিন?",
+  "গাইড বই মুখস্থ করলেও তো এটা পারার কথা!"
+ ],
+ "praise": [
+  "বাহ, ঠিক বলেছ।",
+  "এই তো, পড়াশোনা করেছ দেখছি।",
+  "ঠিক আছে, যাও।"
+ ],
+ "callback": [
+  "আপনার কথা মনে আছে, ভাই।"
+ ],
+ "callback_grateful": [
+  "You were right, bhai. Let me pay you back.",
+  "Because of you I have a way forward. Here, let me help.",
+  "I did what you said. It worked. Now it's my turn."
+ ],
+ "callback_mixed": [
+  "Your advice half worked. I'll do what I can, nothing more.",
+  "Some of it came true, bhai. Some of it didn't."
+ ],
+ "callback_bitter": [
+  "I listened to you, and look where it got me.",
+  "Your advice cost me everything. Now I work for them.",
+  "Don't call me bhai. Not after that."
+ ]
+}

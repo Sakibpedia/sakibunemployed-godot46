@@ -1,0 +1,73 @@
+{
+ "_rules": "No rain, no thunder, no continuous music (brief). Stingers 8 s or less. Paths are placeholders until audio is recorded or licensed.",
+ "events": {
+  "scream": {
+   "streams": [
+    "res://audio/vo/scream_01.ogg"
+   ],
+   "bus": "VO",
+   "max_distance": 60
+  },
+  "taunt": {
+   "streams": [],
+   "bus": "VO",
+   "max_distance": 20
+  },
+  "impact_tile": {
+   "streams": [
+    "res://audio/sfx/impact_tile_01.ogg"
+   ],
+   "bus": "SFX",
+   "max_distance": 30
+  },
+  "impact_glass": {
+   "streams": [
+    "res://audio/sfx/glass_break_01.ogg"
+   ],
+   "bus": "SFX",
+   "max_distance": 45
+  },
+  "gate_screech": {
+   "streams": [
+    "res://audio/sfx/gate_screech_01.ogg"
+   ],
+   "bus": "SFX",
+   "max_distance": 40
+  },
+  "pressure_cooker": {
+   "streams": [
+    "res://audio/amb/pressure_cooker_01.ogg"
+   ],
+   "bus": "Ambience",
+   "max_distance": 25
+  },
+  "azaan_zuhr": {
+   "streams": [
+    "res://audio/amb/azaan_zuhr.ogg"
+   ],
+   "bus": "Ambience",
+   "max_distance": 600
+  },
+  "roof_keys": {
+   "streams": [
+    "res://audio/sfx/keys_jingle_01.ogg"
+   ],
+   "bus": "SFX",
+   "max_distance": 25
+  },
+  "sting_gate_pass": {
+   "streams": [
+    "res://audio/sting/gate_pass.ogg"
+   ],
+   "bus": "Stingers",
+   "max_distance": 0
+  },
+  "sting_gate_fail": {
+   "streams": [
+    "res://audio/sting/gate_fail.ogg"
+   ],
+   "bus": "Stingers",
+   "max_distance": 0
+  }
+ }
+}

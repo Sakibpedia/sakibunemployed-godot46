@@ -1,0 +1,281 @@
+{
+ "level": 19,
+ "title": "Top to bottom",
+ "chapter": "Chapter 7 · The Tower",
+ "brief": "Shamim holds the Tower's roof with Kibria's last men. Every floor has a guard and the clock is running: by five the roof is his for good.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                    B",
+   "B ######################             B",
+   "B #.>>>>...............#             B",
+   "B #....................#             B",
+   "B ####D###########D#####             B",
+   "B #....................#             B",
+   "B #....................#             B",
+   "B #..P............Y....#             B",
+   "B #...........1........#             B",
+   "B #.....Y..............#             B",
+   "B #.........P.......P..#             B",
+   "B #....................#             B",
+   "B ##########D###########             B",
+   "B #                    #             B",
+   "B #                    #             B",
+   "B #                    #             B",
+   "B ##########  ##########             B",
+   "B------------------------------------B",
+   "B=====@=============C================B",
+   "B====================================B",
+   "B-----------------------------C------B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    ....G...>>>>...#",
+   "  #........2G..........#",
+   "  ####D#################",
+   "  #....................#",
+   "  #..P..............P..#",
+   "  #.......x.X..........#",
+   "  #######........#######",
+   "  #...........x........#",
+   "  #.........P.......x..#",
+   "  #....................#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.>>>>....G...    ...#",
+   "  #.........G3.........#",
+   "  ################D#####",
+   "  #....................#",
+   "  #..P..............P..#",
+   "  #.......x.X..........#",
+   "  #######........#######",
+   "  #...........x........#",
+   "  #.........P.......x..#",
+   "  #....................#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    ....G...>>>>...#",
+   "  #........4G..........#",
+   "  ####D#################",
+   "  #....................#",
+   "  #..P..............P..#",
+   "  #.......x.X..........#",
+   "  #######........#######",
+   "  #...........x........#",
+   "  #.........P.......x..#",
+   "  #....................#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ||||||||||||########||",
+   "  |,,,,,,,,,,,#.    .#,|",
+   "  |,,,,,,,,,,,#......#,|",
+   "  |,,,,,,,,,,,######K#,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,w,,,,,P,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,P,|",
+   "  |,,,X,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,5,,,,,,,,,,|",
+   "  |,,,,,w,,,,,,,,,X,,,,|",
+   "  |,,P,,,,,,,,,,,,,,,,,|",
+   "  ||||||||||||||||||||||",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Lipi",
+   "grateful": [
+    "waive_gates:3"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "First-floor guard",
+   "gate": "L19_f1",
+   "look": "goon"
+  },
+  "3": {
+   "type": "gatekeeper",
+   "name": "Second-floor guard",
+   "gate": "L19_f2",
+   "look": "goon"
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Third-floor guard",
+   "gate": "L19_f3",
+   "look": "goon"
+  },
+  "5": {
+   "type": "lieutenant",
+   "name": "Shamim",
+   "tag": "shamim",
+   "static": true
+  },
+  "K": {
+   "type": "roof_door",
+   "axis": "x"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Lipi",
+   "text": "Lipi is waiting in the lobby: talk to her"
+  },
+  {
+   "type": "gate",
+   "gate": "L19_f1",
+   "text": "Get past the first-floor guard"
+  },
+  {
+   "type": "gate",
+   "gate": "L19_f2",
+   "text": "Get past the second-floor guard"
+  },
+  {
+   "type": "gate",
+   "gate": "L19_f3",
+   "text": "Get past the third-floor guard"
+  },
+  {
+   "type": "eliminate",
+   "tag": "shamim",
+   "count": 1,
+   "text": "Take down Shamim, Kibria's lieutenant, on the roof"
+  }
+ ],
+ "gates": {
+  "L19_f1": {
+   "gatekeeper": "first-floor guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 400
+  },
+  "L19_f2": {
+   "gatekeeper": "second-floor guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "bribe": 400
+  },
+  "L19_f3": {
+   "gatekeeper": "third-floor guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate2",
+   "bribe": 400
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 14.5,
+ "palette": "tower",
+ "sector": "tower",
+ "crowd": 30,
+ "last_wish_cap": 3,
+ "lw_share": 0.4,
+ "player_yaw": 90,
+ "roof_floor": 4,
+ "deadline_hour": 17.0,
+ "deadline_text": "Five o'clock. Shamim's men have sealed the roof.",
+ "block_height": 18.0,
+ "roofed": true
+}

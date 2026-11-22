@@ -1,0 +1,191 @@
+{
+ "level": 12,
+ "title": "Shortcut Coaching",
+ "chapter": "Chapter 4 · Kajla Road",
+ "brief": "Kibria's coaching centre sells the leak with a money-back guarantee. The server holds every buyer's name.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B   ################################   B",
+   "B   ##.......##.........#.#..x...x.#   B",
+   "B   ##.....t.##.t..t..t.#.#........#   B",
+   "B   ##..5....##.........#.G....4...#   B",
+   "B   ##.......##.t..t....#6#.7......#   B",
+   "B   ##.......##.........#.#......x.#   B",
+   "B   #####D#########D#####.##########   B",
+   "B   #..............................#   B",
+   "B   #.P...X...P.....3.........X..P.D E B",
+   "B   #...................X..........#   B",
+   "B   ###############GG###############   B",
+   "B   #................1.............#   B",
+   "B   #...2.................Y........#   B",
+   "B   #..n..n...P.............n..n...#   B",
+   "B   #.........................P....#   B",
+   "B   #p............................p#   B",
+   "B   ###############D################   B",
+   "B-----------C-----------------------   B",
+   "B====@==============================   B",
+   "B===================================   B",
+   "B---------------------------C-------   B",
+   "B                                      B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Receptionist",
+   "gate": "L12_reception",
+   "intro": "Shortcut Coaching, guaranteed results! Enrolment test: five questions."
+  },
+  "2": {
+   "type": "career",
+   "person": "Arif",
+   "lines": [
+    "I paid them for the leak, bhai. Forty thousand. Was I stupid?"
+   ]
+  },
+  "3": {
+   "type": "callback",
+   "person": "Sohel",
+   "grateful": [
+    "open:server",
+    "toast:Sohel slips you the server-room key."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "4": {
+   "type": "pickup",
+   "key": "server",
+   "label": "Pull the drive from the leak server",
+   "toast": "The drive with every leaked paper and every buyer's name."
+  },
+  "5": {
+   "type": "boss",
+   "name": "Kibria",
+   "gate": "L12_kibria",
+   "look": "boss",
+   "intro": "Kibria smiles. 'A candidate! Let's see what the honest way taught you. Ten questions, and two are law.'"
+  },
+  "6": {
+   "type": "bypass",
+   "key": "lockpick",
+   "label": "Force the server-room lock (loud)",
+   "to": "7",
+   "noise": 72,
+   "toast": "The lock gives with a crack that echoes down the corridor."
+  },
+  "7": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Arif",
+   "text": "Talk to Arif in the waiting area"
+  },
+  {
+   "type": "gate",
+   "gate": "L12_reception",
+   "text": "Get past the receptionist"
+  },
+  {
+   "type": "talk",
+   "person": "Sohel",
+   "text": "Sohel guards the corridor now: talk to him"
+  },
+  {
+   "type": "pickup",
+   "key": "server",
+   "text": "Take the drive from the server room"
+  },
+  {
+   "type": "gate",
+   "gate": "L12_kibria",
+   "text": "Face Kibria in his office"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Out by the fire escape"
+  }
+ ],
+ "gates": {
+  "L12_reception": {
+   "gatekeeper": "receptionist",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "bribe": 400
+  },
+  "L12_kibria": {
+   "gatekeeper": "Kibria",
+   "category": "duel",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "compose": [
+    {
+     "sets": [
+      "G"
+     ],
+     "count": 8
+    },
+    {
+     "sets": [
+      "BAR"
+     ],
+     "count": 2
+    }
+   ],
+   "no_bribe": true,
+   "story_gate": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 16.0,
+ "palette": "street",
+ "sector": "kajla_rd",
+ "crowd": 20,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "aliases": {
+  "server": "gate0"
+ },
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

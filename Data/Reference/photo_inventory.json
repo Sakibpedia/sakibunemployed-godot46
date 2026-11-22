@@ -1,0 +1,3605 @@
+[
+ {
+  "photo_id": "PH-001",
+  "pdf_page": 1,
+  "position_on_page": "Single screenshot, full page",
+  "category": "other: map_reference",
+  "zone": "Satellite 20 m scale",
+  "extracted_geometry": [
+   "Anchor building roof ~32 x 35 m with two light-well cut-outs",
+   "School Rd west edge",
+   "Sontek Main Rd north-east edge"
+  ],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "MAP-REF",
+   "BLDG-TOWER footprint"
+  ],
+  "image_px": "1151x900",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-002",
+  "pdf_page": 2,
+  "position_on_page": "Single screenshot, full page",
+  "category": "other: map_reference",
+  "zone": "Satellite 500 m scale",
+  "extracted_geometry": [
+   "N1 NW-SE axis",
+   "N8 south from Jatrabari",
+   "Dhaka-Demra Hwy (R110) north-east",
+   "Dania south of N1, Sontek north of N1"
+  ],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "MAP-REF",
+   "WORLD-MACRO"
+  ],
+  "image_px": "1167x881",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-003",
+  "pdf_page": 3,
+  "position_on_page": "Single screenshot, full page",
+  "category": "other: map_reference",
+  "zone": "Satellite 100 m scale",
+  "extracted_geometry": [
+   "N1 corridor with flyover ramps at Kajla",
+   "Lane grid: Rd Number 2, Sontek Mohammadi Rd 2, Road No. 3, Mosjid Rd 1-2, Masjid Rd, Isha Kha Rd, Road No. 7, School Rd, Titumir Rd"
+  ],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "MAP-REF",
+   "WORLD-STREETS"
+  ],
+  "image_px": "1164x887",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-004",
+  "pdf_page": 4,
+  "position_on_page": "Single screenshot, full page",
+  "category": "other: map_reference",
+  "zone": "Satellite 100 m scale",
+  "extracted_geometry": [
+   "N1 corridor with flyover ramps at Kajla",
+   "Lane grid: Rd Number 2, Sontek Mohammadi Rd 2, Road No. 3, Mosjid Rd 1-2, Masjid Rd, Isha Kha Rd, Road No. 7, School Rd, Titumir Rd"
+  ],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "MAP-REF",
+   "WORLD-STREETS"
+  ],
+  "image_px": "1149x881",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-005",
+  "pdf_page": 5,
+  "position_on_page": "Single screenshot, full page",
+  "category": "other: map_reference",
+  "zone": "Map view 100 m scale",
+  "extracted_geometry": [
+   "Same lane grid; pond north of Mosjid Rd 1",
+   "Dania College and Adarsha High School south of N1"
+  ],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "MAP-REF",
+   "WORLD-STREETS",
+   "WORLD-LANDMARKS"
+  ],
+  "image_px": "1166x900",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-006",
+  "pdf_page": 6,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom, night",
+  "extracted_geometry": [
+   "Wall plane",
+   "Socket at 0.3 m"
+  ],
+  "extracted_materials": [
+   "Painted plaster (off-white)"
+  ],
+  "extracted_props": [
+   "Plug-in device with red LED"
+  ],
+  "assigned_module_ids": [
+   "FLAT-BED",
+   "LIGHT-NIGHT ref"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-007",
+  "pdf_page": 7,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window to building gap",
+  "extracted_geometry": [
+   "Window bay; 1.5-2 m gap to neighbour wall"
+  ],
+  "extracted_materials": [
+   "Painted concrete",
+   "Glass blocks (neighbour)"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "NEIGH-GAP-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-008",
+  "pdf_page": 8,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window to rear alley",
+  "extracted_geometry": [
+   "Setback alley ~2 m wide, 1 floor down"
+  ],
+  "extracted_materials": [
+   "Concrete",
+   "Rubbish heap"
+  ],
+  "extracted_props": [
+   "Window grille",
+   "Rubbish pile"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "SIDEPASS-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-009",
+  "pdf_page": 9,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom window",
+  "extracted_geometry": [
+   "Window 1.5 x 1.2 m, sill ~0.9 m"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Curtain fabric"
+  ],
+  "extracted_props": [
+   "Horizontal-bar grille",
+   "Curtain"
+  ],
+  "assigned_module_ids": [
+   "WIN-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-010",
+  "pdf_page": 10,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Corridor, two doorways",
+  "extracted_geometry": [
+   "Ceiling ~3.0 m",
+   "Door openings 0.9 x 2.1 m"
+  ],
+  "extracted_materials": [
+   "Painted plaster"
+  ],
+  "extracted_props": [
+   "Ceiling light"
+  ],
+  "assigned_module_ids": [
+   "FLAT-CORR"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-011",
+  "pdf_page": 11,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Living room",
+  "extracted_geometry": [
+   "Internal window between rooms",
+   "Door 0.9 x 2.1 m"
+  ],
+  "extracted_materials": [
+   "Teak door",
+   "White glazed tile 600 x 600"
+  ],
+  "extracted_props": [
+   "Wooden door",
+   "Slippers"
+  ],
+  "assigned_module_ids": [
+   "DOOR-INT-01",
+   "FLAT-LIV",
+   "FLOOR-TILE-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-012",
+  "pdf_page": 12,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window detail",
+  "extracted_geometry": [
+   "Window with zig-zag trim"
+  ],
+  "extracted_materials": [
+   "Aluminium frame",
+   "Glass"
+  ],
+  "extracted_props": [
+   "Decorative window trim"
+  ],
+  "assigned_module_ids": [
+   "WIN-02"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-013",
+  "pdf_page": 13,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom seen through a steel frame",
+  "extracted_geometry": [
+   "Steel frame bars ~40 mm"
+  ],
+  "extracted_materials": [
+   "Painted steel",
+   "Wood laminate"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Wall clock",
+   "Wardrobe",
+   "Patterned floor mat (likely prayer mat)"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-CLOCK",
+   "PROP-WARDROBE",
+   "PROP-MAT"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-014",
+  "pdf_page": 14,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom seen through a steel frame",
+  "extracted_geometry": [
+   "Steel frame bars ~40 mm"
+  ],
+  "extracted_materials": [
+   "Painted steel",
+   "Wood laminate"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Wall clock",
+   "Wardrobe",
+   "Patterned floor mat (likely prayer mat)"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-CLOCK",
+   "PROP-WARDROBE",
+   "PROP-MAT"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-015",
+  "pdf_page": 15,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Kitchen rack, top view",
+  "extracted_geometry": [
+   "Two-tier rack"
+  ],
+  "extracted_materials": [
+   "Basket-weave wall tile",
+   "Steel"
+  ],
+  "extracted_props": [
+   "Plates",
+   "Spice packets",
+   "Plastic jars",
+   "Aluminium lid"
+  ],
+  "assigned_module_ids": [
+   "KIT-RACK",
+   "PROP-JARS"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-016",
+  "pdf_page": 16,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom through doorway",
+  "extracted_geometry": [
+   "Doorway with grille panel"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Dark wood"
+  ],
+  "extracted_props": [
+   "Display cabinet",
+   "Bed with red cover",
+   "Curtain"
+  ],
+  "assigned_module_ids": [
+   "PROP-SHOWCASE",
+   "PROP-BED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-017",
+  "pdf_page": 17,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom",
+  "extracted_geometry": [
+   "Bed against wall; TV on cabinet"
+  ],
+  "extracted_materials": [
+   "Wood",
+   "Fabric"
+  ],
+  "extracted_props": [
+   "Flat-screen TV",
+   "Bookshelf",
+   "Artificial plant",
+   "Bed"
+  ],
+  "assigned_module_ids": [
+   "PROP-TV",
+   "PROP-BOOKSHELF",
+   "PROP-BED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-018",
+  "pdf_page": 18,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Storage jars, top view",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Basket-weave tile",
+   "White floor tile"
+  ],
+  "extracted_props": [
+   "Jars with red lids",
+   "Plastic containers"
+  ],
+  "assigned_module_ids": [
+   "PROP-JARS"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-019",
+  "pdf_page": 19,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Switchboard",
+  "extracted_geometry": [
+   "Switchboard at 1.2 m"
+  ],
+  "extracted_materials": [
+   "Painted plaster",
+   "Plastic"
+  ],
+  "extracted_props": [
+   "Two switches, 3-pin socket, fan regulator",
+   "Phone charger"
+  ],
+  "assigned_module_ids": [
+   "PROP-SWITCHBOARD"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-020",
+  "pdf_page": 20,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Fridge, open",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Enamel",
+   "Glass shelves"
+  ],
+  "extracted_props": [
+   "Upright fridge-freezer",
+   "Artificial flowers on top",
+   "Groceries"
+  ],
+  "assigned_module_ids": [
+   "PROP-FRIDGE-01",
+   "PROP-VASE"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-021",
+  "pdf_page": 21,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Fridge, open",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Enamel",
+   "Glass shelves"
+  ],
+  "extracted_props": [
+   "Upright fridge-freezer",
+   "Artificial flowers on top",
+   "Groceries"
+  ],
+  "assigned_module_ids": [
+   "PROP-FRIDGE-01",
+   "PROP-VASE"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-022",
+  "pdf_page": 22,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Kitchen with fridge",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Basket-weave tile",
+   "Plastic"
+  ],
+  "extracted_props": [
+   "Second fridge (brand to be removed)",
+   "Red plastic rack",
+   "Jars"
+  ],
+  "assigned_module_ids": [
+   "PROP-FRIDGE-02",
+   "PROP-RACK-RED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-023",
+  "pdf_page": 23,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Kitchen ceiling",
+  "extracted_geometry": [
+   "Ceiling ~2.9 m"
+  ],
+  "extracted_materials": [
+   "Basket-weave tile dado"
+  ],
+  "extracted_props": [
+   "Bare bulb holder"
+  ],
+  "assigned_module_ids": [
+   "KIT-WALL-01",
+   "PROP-BULB"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-024",
+  "pdf_page": 24,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Gas stove",
+  "extracted_geometry": [
+   "Counter at 0.8 m"
+  ],
+  "extracted_materials": [
+   "Tiled counter"
+  ],
+  "extracted_props": [
+   "Two-burner gas stove",
+   "Wok (kadai)",
+   "Pot",
+   "Spatula"
+  ],
+  "assigned_module_ids": [
+   "KIT-COUNTER",
+   "PROP-STOVE",
+   "PROP-KADAI"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-025",
+  "pdf_page": 25,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Kitchen counter",
+  "extracted_geometry": [
+   "L-shaped counter",
+   "Window with grille"
+  ],
+  "extracted_materials": [
+   "Tile",
+   "Plastic"
+  ],
+  "extracted_props": [
+   "Blue dish rack",
+   "Pressure cooker",
+   "Pans",
+   "Floor mat"
+  ],
+  "assigned_module_ids": [
+   "KIT-COUNTER",
+   "PROP-DISHRACK",
+   "PROP-PCOOKER"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-026",
+  "pdf_page": 26,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Galley kitchen",
+  "extracted_geometry": [
+   "Galley ~1.8 m wide"
+  ],
+  "extracted_materials": [
+   "Brown basket-weave tile with blue floral border"
+  ],
+  "extracted_props": [
+   "Shelf",
+   "Jars",
+   "Stool"
+  ],
+  "assigned_module_ids": [
+   "KIT-WALL-01",
+   "KIT-COUNTER"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-027",
+  "pdf_page": 27,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bed and study clutter",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Orange floral cotton sheet"
+  ],
+  "extracted_props": [
+   "Job-preparation guidebook (generic in game)",
+   "Magazine",
+   "Power strip",
+   "Red basket"
+  ],
+  "assigned_module_ids": [
+   "PROP-BED",
+   "PROP-BOOK-GUIDE",
+   "PROP-POWERSTRIP",
+   "PROP-BASKET"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-028",
+  "pdf_page": 28,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window view to neighbour",
+  "extracted_geometry": [
+   "Building gap 2-3 m",
+   "Neighbour windows with glass blocks"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Grey render"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "NEIGH-FACADE-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-029",
+  "pdf_page": 29,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window view to neighbour",
+  "extracted_geometry": [
+   "Building gap 2-3 m",
+   "Neighbour windows with glass blocks"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Grey render"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "NEIGH-FACADE-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-030",
+  "pdf_page": 30,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window view to neighbour",
+  "extracted_geometry": [
+   "Building gap 2-3 m",
+   "Neighbour windows with glass blocks"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Grey render"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "NEIGH-FACADE-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-031",
+  "pdf_page": 31,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bed with mosquito net",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Net mesh",
+   "Floral sheet"
+  ],
+  "extracted_props": [
+   "Mosquito net",
+   "Table fan",
+   "Pillows"
+  ],
+  "assigned_module_ids": [
+   "PROP-NET",
+   "PROP-TABLEFAN",
+   "PROP-BED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-032",
+  "pdf_page": 32,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Study desk",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Crochet table cover",
+   "Wood"
+  ],
+  "extracted_props": [
+   "Framed certificates",
+   "Books and files",
+   "Cloth pile"
+  ],
+  "assigned_module_ids": [
+   "PROP-DESK",
+   "PROP-CERTS",
+   "PROP-BOOKS"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-033",
+  "pdf_page": 33,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Window corner",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Blue curtain",
+   "Steel grille"
+  ],
+  "extracted_props": [
+   "Black plastic chair",
+   "Folded quilt"
+  ],
+  "assigned_module_ids": [
+   "PROP-CHAIR-PLASTIC",
+   "WIN-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-034",
+  "pdf_page": 34,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Ceiling",
+  "extracted_geometry": [
+   "Ceiling ~3.0 m"
+  ],
+  "extracted_materials": [
+   "Painted plaster"
+  ],
+  "extracted_props": [
+   "Ceiling fan"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-035",
+  "pdf_page": 35,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Study room",
+  "extracted_geometry": [
+   "Small room ~2.8 m wide"
+  ],
+  "extracted_materials": [
+   "Wood",
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Desk with drawers",
+   "Framed certificates",
+   "Books",
+   "Wall bracket light"
+  ],
+  "assigned_module_ids": [
+   "PROP-DESK",
+   "PROP-CERTS",
+   "FLAT-BED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-036",
+  "pdf_page": 36,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Study room",
+  "extracted_geometry": [
+   "Small room ~2.8 m wide"
+  ],
+  "extracted_materials": [
+   "Wood",
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Desk with drawers",
+   "Framed certificates",
+   "Books",
+   "Wall bracket light"
+  ],
+  "assigned_module_ids": [
+   "PROP-DESK",
+   "PROP-CERTS",
+   "FLAT-BED"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-037",
+  "pdf_page": 37,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom",
+  "extracted_geometry": [
+   "Doorway 0.9 m"
+  ],
+  "extracted_materials": [
+   "Laminated door",
+   "Checked curtain"
+  ],
+  "extracted_props": [
+   "Mosquito net",
+   "Table fan",
+   "Bed"
+  ],
+  "assigned_module_ids": [
+   "PROP-NET",
+   "PROP-TABLEFAN",
+   "DOOR-INT-02"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-038",
+  "pdf_page": 38,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom",
+  "extracted_geometry": [
+   "Doorway 0.9 m"
+  ],
+  "extracted_materials": [
+   "Laminated door",
+   "Checked curtain"
+  ],
+  "extracted_props": [
+   "Mosquito net",
+   "Table fan",
+   "Bed"
+  ],
+  "assigned_module_ids": [
+   "PROP-NET",
+   "PROP-TABLEFAN",
+   "DOOR-INT-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-039",
+  "pdf_page": 39,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Window view",
+  "extracted_geometry": [
+   "Facing building ~3 m away"
+  ],
+  "extracted_materials": [
+   "Steel grille"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "WIN-01",
+   "NEIGH-FACADE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-040",
+  "pdf_page": 40,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "interior_house",
+  "zone": "Bedroom corner",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Wood",
+   "Curtain"
+  ],
+  "extracted_props": [
+   "Dressing table",
+   "Hanging clothes"
+  ],
+  "assigned_module_ids": [
+   "PROP-DRESSER"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-041",
+  "pdf_page": 41,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Balcony",
+  "extracted_geometry": [
+   "Balcony ~1.2 m deep",
+   "Railing 1.0 m"
+  ],
+  "extracted_materials": [
+   "Stainless-steel rail",
+   "Vertical-bar grille"
+  ],
+  "extracted_props": [
+   "Planter boxes",
+   "Drying laundry",
+   "Mop",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "BALC-01",
+   "PROP-PLANTER",
+   "PROP-LAUNDRY",
+   "NEIGH-FACADE-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-042",
+  "pdf_page": 42,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Balcony",
+  "extracted_geometry": [
+   "Balcony ~1.2 m deep",
+   "Railing 1.0 m"
+  ],
+  "extracted_materials": [
+   "Stainless-steel rail",
+   "Vertical-bar grille"
+  ],
+  "extracted_props": [
+   "Planter boxes",
+   "Drying laundry",
+   "Mop",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "BALC-01",
+   "PROP-PLANTER",
+   "PROP-LAUNDRY",
+   "NEIGH-FACADE-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-043",
+  "pdf_page": 43,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Balcony",
+  "extracted_geometry": [
+   "Balcony ~1.2 m deep",
+   "Railing 1.0 m"
+  ],
+  "extracted_materials": [
+   "Stainless-steel rail",
+   "Vertical-bar grille"
+  ],
+  "extracted_props": [
+   "Planter boxes",
+   "Drying laundry",
+   "Mop",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "BALC-01",
+   "PROP-PLANTER",
+   "PROP-LAUNDRY",
+   "NEIGH-FACADE-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-044",
+  "pdf_page": 44,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Balcony",
+  "extracted_geometry": [
+   "Balcony ~1.2 m deep",
+   "Railing 1.0 m"
+  ],
+  "extracted_materials": [
+   "Stainless-steel rail",
+   "Vertical-bar grille"
+  ],
+  "extracted_props": [
+   "Planter boxes",
+   "Drying laundry",
+   "Mop",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "BALC-01",
+   "PROP-PLANTER",
+   "PROP-LAUNDRY",
+   "NEIGH-FACADE-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-045",
+  "pdf_page": 45,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom with balcony door",
+  "extracted_geometry": [
+   "Balcony door 0.8 m"
+  ],
+  "extracted_materials": [
+   "Steel grille"
+  ],
+  "extracted_props": [
+   "Rice cooker on stool",
+   "Dressing mirror",
+   "Indoor clothes line"
+  ],
+  "assigned_module_ids": [
+   "PROP-RICECOOKER",
+   "PROP-DRESSER",
+   "PROP-LAUNDRY"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-046",
+  "pdf_page": 46,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Blue mandala bedsheet",
+   "Wood"
+  ],
+  "extracted_props": [
+   "Wardrobe",
+   "Bed",
+   "Side table"
+  ],
+  "assigned_module_ids": [
+   "PROP-WARDROBE",
+   "PROP-BED"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-047",
+  "pdf_page": 47,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Ceilings and doors",
+  "extracted_geometry": [
+   "Ceiling ~3.0 m",
+   "Door with frosted glass"
+  ],
+  "extracted_materials": [
+   "Plaster",
+   "Checked curtain"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Wall light"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-WALLLIGHT",
+   "DOOR-INT-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-048",
+  "pdf_page": 48,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Ceilings and doors",
+  "extracted_geometry": [
+   "Ceiling ~3.0 m",
+   "Door with frosted glass"
+  ],
+  "extracted_materials": [
+   "Plaster",
+   "Checked curtain"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Wall light"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-WALLLIGHT",
+   "DOOR-INT-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-049",
+  "pdf_page": 49,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Ceilings and doors",
+  "extracted_geometry": [
+   "Ceiling ~3.0 m",
+   "Door with frosted glass"
+  ],
+  "extracted_materials": [
+   "Plaster",
+   "Checked curtain"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Wall light"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-WALLLIGHT",
+   "DOOR-INT-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-050",
+  "pdf_page": 50,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Dining area",
+  "extracted_geometry": [
+   "Kitchen door off dining"
+  ],
+  "extracted_materials": [
+   "Tile dado"
+  ],
+  "extracted_props": [
+   "Maroon upright fridge",
+   "Artificial flowers",
+   "Hanging ornament"
+  ],
+  "assigned_module_ids": [
+   "PROP-FRIDGE-03",
+   "FLAT-DIN"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-051",
+  "pdf_page": 51,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Wall",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Wall clock",
+   "Bag on shelf",
+   "Clothes on chair"
+  ],
+  "assigned_module_ids": [
+   "PROP-CLOCK"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-052",
+  "pdf_page": 52,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Display cabinet",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Wood and glass"
+  ],
+  "extracted_props": [
+   "Glass-front cabinet with crockery",
+   "Plastic containers"
+  ],
+  "assigned_module_ids": [
+   "PROP-SHOWCASE"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-053",
+  "pdf_page": 53,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Window",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Blue curtain",
+   "Steel grille"
+  ],
+  "extracted_props": [
+   "Curtain"
+  ],
+  "assigned_module_ids": [
+   "WIN-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-054",
+  "pdf_page": 54,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Floor lobby seen from a flat door",
+  "extracted_geometry": [
+   "Lobby ~8 m wide",
+   "Two lifts side by side",
+   "Stair beyond"
+  ],
+  "extracted_materials": [
+   "White glazed tile",
+   "Brown tile lift cladding",
+   "Carved teak door"
+  ],
+  "extracted_props": [
+   "Carved wooden chair"
+  ],
+  "assigned_module_ids": [
+   "LOBBY-01",
+   "LIFT-01",
+   "DOOR-FLAT-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-055",
+  "pdf_page": 55,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bathroom door",
+  "extracted_geometry": [
+   "Bath door 0.75 m"
+  ],
+  "extracted_materials": [
+   "Dark wood",
+   "Blue patterned wall tile"
+  ],
+  "extracted_props": [
+   "Bathroom door"
+  ],
+  "assigned_module_ids": [
+   "DOOR-BATH",
+   "BATH-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-056",
+  "pdf_page": 56,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Bedroom",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Pink sheet",
+   "Wood"
+  ],
+  "extracted_props": [
+   "Bed",
+   "Wardrobe",
+   "Curtain"
+  ],
+  "assigned_module_ids": [
+   "PROP-BED",
+   "PROP-WARDROBE"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-057",
+  "pdf_page": 57,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Living room",
+  "extracted_geometry": [
+   "Living ~4.5 x 3.6 m"
+  ],
+  "extracted_materials": [
+   "Carved wood",
+   "Maroon tablecloth"
+  ],
+  "extracted_props": [
+   "Carved sofa set",
+   "Centre table",
+   "Flat-screen TV",
+   "Bookshelves",
+   "Red plastic rack"
+  ],
+  "assigned_module_ids": [
+   "FLAT-LIV",
+   "PROP-SOFA",
+   "PROP-TV",
+   "PROP-BOOKSHELF"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-058",
+  "pdf_page": 58,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Living room ceiling",
+  "extracted_geometry": [
+   "Ceiling beam"
+  ],
+  "extracted_materials": [
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Flat-screen TV with Bangla news",
+   "Artificial plant",
+   "Almirah"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-TV",
+   "PROP-ALMIRAH"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-059",
+  "pdf_page": 59,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Living room ceiling",
+  "extracted_geometry": [
+   "Ceiling beam"
+  ],
+  "extracted_materials": [
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Ceiling fan",
+   "Flat-screen TV with Bangla news",
+   "Artificial plant",
+   "Almirah"
+  ],
+  "assigned_module_ids": [
+   "PROP-FAN",
+   "PROP-TV",
+   "PROP-ALMIRAH"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-060",
+  "pdf_page": 60,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Ceiling beam",
+  "extracted_geometry": [
+   "Beam 300 mm deep with fan hook"
+  ],
+  "extracted_materials": [
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Fan hook"
+  ],
+  "assigned_module_ids": [
+   "FLAT-BEAM"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-061",
+  "pdf_page": 61,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Wall with distribution board",
+  "extracted_geometry": [
+   "Board at 1.6 m"
+  ],
+  "extracted_materials": [
+   "Plaster",
+   "Green curtain"
+  ],
+  "extracted_props": [
+   "Distribution board",
+   "Curtain rod"
+  ],
+  "assigned_module_ids": [
+   "PROP-DB"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-062",
+  "pdf_page": 62,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Wall (blurred)",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Plaster"
+  ],
+  "extracted_props": [
+   "Wall calendar",
+   "Wall clock"
+  ],
+  "assigned_module_ids": [
+   "PROP-CALENDAR"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-063",
+  "pdf_page": 63,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Dining and living",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Wood",
+   "Maroon cloth"
+  ],
+  "extracted_props": [
+   "Dining table",
+   "Wall calendar",
+   "Fridge",
+   "Door"
+  ],
+  "assigned_module_ids": [
+   "FLAT-DIN",
+   "PROP-DININGTABLE",
+   "PROP-CALENDAR"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-064",
+  "pdf_page": 64,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Living room at night",
+  "extracted_geometry": [],
+  "extracted_materials": [],
+  "extracted_props": [
+   "Flat-screen TV glowing"
+  ],
+  "assigned_module_ids": [
+   "PROP-TV",
+   "LIGHT-NIGHT ref"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-065",
+  "pdf_page": 65,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "interior_house",
+  "zone": "Dining and living",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Wood",
+   "Maroon cloth"
+  ],
+  "extracted_props": [
+   "Dining table",
+   "Wall calendar",
+   "Fridge",
+   "Door"
+  ],
+  "assigned_module_ids": [
+   "FLAT-DIN",
+   "PROP-DININGTABLE",
+   "PROP-CALENDAR"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-066",
+  "pdf_page": 66,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "other: unusable",
+  "zone": "Motion blur",
+  "extracted_geometry": [],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-067",
+  "pdf_page": 67,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "exterior_9story",
+  "zone": "Ground: grille gate to service passage",
+  "extracted_geometry": [
+   "Gate 1.0 x 2.2 m",
+   "Passage ~1.2 m"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Padlock",
+   "Debris"
+  ],
+  "assigned_module_ids": [
+   "GRILLE-GATE-02",
+   "SIDEPASS-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-068",
+  "pdf_page": 68,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Corridor (blurred)",
+  "extracted_geometry": [
+   "Corridor with glazed panel"
+  ],
+  "extracted_materials": [
+   "Glossy tile"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "LOBBY-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-069",
+  "pdf_page": 69,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "exterior_9story",
+  "zone": "Ground: grille gate to service passage",
+  "extracted_geometry": [
+   "Gate 1.0 x 2.2 m",
+   "Passage ~1.2 m"
+  ],
+  "extracted_materials": [
+   "Steel grille",
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Padlock",
+   "Debris"
+  ],
+  "assigned_module_ids": [
+   "GRILLE-GATE-02",
+   "SIDEPASS-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-070",
+  "pdf_page": 70,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "other: unusable",
+  "zone": "Motion blur",
+  "extracted_geometry": [],
+  "extracted_materials": [],
+  "extracted_props": [],
+  "assigned_module_ids": [],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-071",
+  "pdf_page": 71,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Stair flight and landing",
+  "extracted_geometry": [
+   "Dog-leg stair, flight ~1.2 m wide",
+   "Landing window"
+  ],
+  "extracted_materials": [
+   "Grey tile treads",
+   "Black skirting",
+   "Stainless rail"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "STAIR-01",
+   "STAIR-WIN-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-072",
+  "pdf_page": 72,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Stair flight and landing",
+  "extracted_geometry": [
+   "Dog-leg stair, flight ~1.2 m wide",
+   "Landing window"
+  ],
+  "extracted_materials": [
+   "Grey tile treads",
+   "Black skirting",
+   "Stainless rail"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "STAIR-01",
+   "STAIR-WIN-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-073",
+  "pdf_page": 73,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: light-well safety grille looking up",
+  "extracted_geometry": [
+   "Horizontal grille over light well"
+  ],
+  "extracted_materials": [
+   "Steel grid",
+   "Red tile ledge"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "LW-GRILLE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-074",
+  "pdf_page": 74,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: generator bay",
+  "extracted_geometry": [
+   "Genset ~2.6 x 1.1 x 1.4 m"
+  ],
+  "extracted_materials": [
+   "Painted steel enclosure",
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Diesel generator",
+   "Bicycle",
+   "Parked cars"
+  ],
+  "assigned_module_ids": [
+   "GENSET-01",
+   "PARK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-075",
+  "pdf_page": 75,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: generator bay",
+  "extracted_geometry": [
+   "Genset ~2.6 x 1.1 x 1.4 m"
+  ],
+  "extracted_materials": [
+   "Painted steel enclosure",
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Diesel generator",
+   "Bicycle",
+   "Parked cars"
+  ],
+  "assigned_module_ids": [
+   "GENSET-01",
+   "PARK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-076",
+  "pdf_page": 76,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: light-well safety grille looking up",
+  "extracted_geometry": [
+   "Horizontal grille over light well"
+  ],
+  "extracted_materials": [
+   "Steel grid",
+   "Red tile ledge"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "LW-GRILLE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-077",
+  "pdf_page": 77,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: generator bay",
+  "extracted_geometry": [
+   "Genset ~2.6 x 1.1 x 1.4 m"
+  ],
+  "extracted_materials": [
+   "Painted steel enclosure",
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Diesel generator",
+   "Bicycle",
+   "Parked cars"
+  ],
+  "assigned_module_ids": [
+   "GENSET-01",
+   "PARK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-078",
+  "pdf_page": 78,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: side passage",
+  "extracted_geometry": [
+   "Setback ~1.5 m"
+  ],
+  "extracted_materials": [
+   "Concrete",
+   "Stainless rail"
+  ],
+  "extracted_props": [
+   "Cable bundles",
+   "PVC pipes",
+   "Cat"
+  ],
+  "assigned_module_ids": [
+   "SIDEPASS-01",
+   "PROP-CABLES"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-079",
+  "pdf_page": 79,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: meter bank",
+  "extracted_geometry": [
+   "Cabinet bank ~3 m long"
+  ],
+  "extracted_materials": [
+   "Blue painted steel"
+  ],
+  "extracted_props": [
+   "Electricity meter cabinets",
+   "Covered car"
+  ],
+  "assigned_module_ids": [
+   "METER-01",
+   "PARK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-080",
+  "pdf_page": 80,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: meter bank",
+  "extracted_geometry": [
+   "Cabinet bank ~3 m long"
+  ],
+  "extracted_materials": [
+   "Blue painted steel"
+  ],
+  "extracted_props": [
+   "Electricity meter cabinets",
+   "Covered car"
+  ],
+  "assigned_module_ids": [
+   "METER-01",
+   "PARK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-081",
+  "pdf_page": 81,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: under-stair bay",
+  "extracted_geometry": [
+   "Bay under stair"
+  ],
+  "extracted_materials": [
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Motorcycle"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "STAIR-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-082",
+  "pdf_page": 82,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: main gate",
+  "extracted_geometry": [
+   "Sliding gate ~4.5 m"
+  ],
+  "extracted_materials": [
+   "Black steel bars",
+   "Brown vertical panels"
+  ],
+  "extracted_props": [
+   "Main gate"
+  ],
+  "assigned_module_ids": [
+   "GATE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-083",
+  "pdf_page": 83,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "street_context",
+  "zone": "Street through open gate",
+  "extracted_geometry": [
+   "Lane ~6 m",
+   "Shops opposite, 2-3 storeys"
+  ],
+  "extracted_materials": [
+   "Rendered brick",
+   "Rolling shutters"
+  ],
+  "extracted_props": [
+   "Shop shutter",
+   "Awning",
+   "Steps",
+   "Overhead cables"
+  ],
+  "assigned_module_ids": [
+   "STREET-SHOP-01",
+   "PROP-CABLES"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-084",
+  "pdf_page": 84,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: guard booth",
+  "extracted_geometry": [
+   "Booth ~1.5 x 1.5 m",
+   "Grille window with counter"
+  ],
+  "extracted_materials": [
+   "Concrete column",
+   "Mosaic tile"
+  ],
+  "extracted_props": [
+   "Register",
+   "Phone",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "GUARD-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-085",
+  "pdf_page": 85,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "exterior_9story",
+  "zone": "Ground: guard booth",
+  "extracted_geometry": [
+   "Booth ~1.5 x 1.5 m",
+   "Grille window with counter"
+  ],
+  "extracted_materials": [
+   "Concrete column",
+   "Mosaic tile"
+  ],
+  "extracted_props": [
+   "Register",
+   "Phone",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "GUARD-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-086",
+  "pdf_page": 86,
+  "position_on_page": "Single photo, full page, portrait (side margins)",
+  "category": "exterior_9story",
+  "zone": "Ground: guard booth",
+  "extracted_geometry": [
+   "Booth ~1.5 x 1.5 m",
+   "Grille window with counter"
+  ],
+  "extracted_materials": [
+   "Concrete column",
+   "Mosaic tile"
+  ],
+  "extracted_props": [
+   "Register",
+   "Phone",
+   "Plastic bags"
+  ],
+  "assigned_module_ids": [
+   "GUARD-01"
+  ],
+  "image_px": "2304x3072",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-087",
+  "pdf_page": 87,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-088",
+  "pdf_page": 88,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-089",
+  "pdf_page": 89,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-090",
+  "pdf_page": 90,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-091",
+  "pdf_page": 91,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-092",
+  "pdf_page": 92,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-093",
+  "pdf_page": 93,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Hall with saf lines (prayer or community room)",
+  "extracted_geometry": [
+   "Hall ~12 x 8 m",
+   "Grid false ceiling"
+  ],
+  "extracted_materials": [
+   "White tile with black lines",
+   "Columns"
+  ],
+  "extracted_props": [
+   "Ceiling lights"
+  ],
+  "assigned_module_ids": [
+   "HALL-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-094",
+  "pdf_page": 94,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-095",
+  "pdf_page": 95,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-096",
+  "pdf_page": 96,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Ground: parking",
+  "extracted_geometry": [
+   "Column grid ~5.5 m",
+   "Clear height ~2.8 m",
+   "Gate at far end"
+  ],
+  "extracted_materials": [
+   "Red, green and grey rubber-pattern tiles",
+   "Off-white columns with dark skirting",
+   "Exposed plumbing"
+  ],
+  "extracted_props": [
+   "Sedans and hatchbacks",
+   "Car covers",
+   "Red plastic stool",
+   "Ceiling fans",
+   "Signage board"
+  ],
+  "assigned_module_ids": [
+   "PARK-01",
+   "COL-01",
+   "CEIL-PIPE-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-097",
+  "pdf_page": 97,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Reservoir or pump room",
+  "extracted_geometry": [
+   "Concrete chamber ~3 x 3 m"
+  ],
+  "extracted_materials": [
+   "Raw concrete",
+   "Water stains"
+  ],
+  "extracted_props": [
+   "Taps",
+   "Drain"
+  ],
+  "assigned_module_ids": [
+   "RES-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-098",
+  "pdf_page": 98,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Lift car",
+  "extracted_geometry": [
+   "Car ~1.4 x 1.6 m"
+  ],
+  "extracted_materials": [
+   "Stainless steel",
+   "Mirror",
+   "Red floor light"
+  ],
+  "extracted_props": [
+   "Button panels",
+   "Handrail"
+  ],
+  "assigned_module_ids": [
+   "LIFT-CAR-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": true
+ },
+ {
+  "photo_id": "PH-099",
+  "pdf_page": 99,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Upper floor: unfinished flat",
+  "extracted_geometry": [
+   "Open plan ~6 x 5 m",
+   "Bathroom with tile band"
+  ],
+  "extracted_materials": [
+   "White tile",
+   "Raw plaster"
+  ],
+  "extracted_props": [
+   "Blue plastic chair",
+   "Wardrobe",
+   "Construction debris"
+  ],
+  "assigned_module_ids": [
+   "FLAT-UNF-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-100",
+  "pdf_page": 100,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Upper floor: unfinished flat",
+  "extracted_geometry": [
+   "Open plan ~6 x 5 m",
+   "Bathroom with tile band"
+  ],
+  "extracted_materials": [
+   "White tile",
+   "Raw plaster"
+  ],
+  "extracted_props": [
+   "Blue plastic chair",
+   "Wardrobe",
+   "Construction debris"
+  ],
+  "assigned_module_ids": [
+   "FLAT-UNF-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-101",
+  "pdf_page": 101,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Upper floor: duplex flat",
+  "extracted_geometry": [
+   "Internal stair to upper level"
+  ],
+  "extracted_materials": [
+   "Glass balustrade",
+   "Black steel stringer"
+  ],
+  "extracted_props": [
+   "Floating stair"
+  ],
+  "assigned_module_ids": [
+   "FLAT-UNF-01",
+   "STAIR-GLASS-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-102",
+  "pdf_page": 102,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Main stair",
+  "extracted_geometry": [
+   "Dog-leg stair"
+  ],
+  "extracted_materials": [
+   "Grey tile",
+   "Stainless rail"
+  ],
+  "extracted_props": [
+   "Window grille"
+  ],
+  "assigned_module_ids": [
+   "STAIR-01",
+   "STAIR-WIN-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-103",
+  "pdf_page": 103,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Stair landing at light well",
+  "extracted_geometry": [
+   "Landing window into light well"
+  ],
+  "extracted_materials": [
+   "Green paint",
+   "Steel grille"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "STAIR-WIN-01",
+   "LW-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-104",
+  "pdf_page": 104,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Light well looking up",
+  "extracted_geometry": [
+   "Shaft ~2 x 3 m",
+   "Rebar ties across shaft"
+  ],
+  "extracted_materials": [
+   "Green paint",
+   "Concrete"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "LW-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-105",
+  "pdf_page": 105,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Light-well cover, looking down",
+  "extracted_geometry": [
+   "Gable cover over shaft"
+  ],
+  "extracted_materials": [
+   "Green corrugated sheet",
+   "Steel"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-CANOPY-01",
+   "LW-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-106",
+  "pdf_page": 106,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Light well looking up",
+  "extracted_geometry": [
+   "Shaft ~2 x 3 m",
+   "Rebar ties across shaft"
+  ],
+  "extracted_materials": [
+   "Green paint",
+   "Concrete"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "LW-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-107",
+  "pdf_page": 107,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Stair void from the top",
+  "extracted_geometry": [
+   "Stair around a narrow void"
+  ],
+  "extracted_materials": [
+   "Grey tile",
+   "Stainless rail"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "STAIR-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-108",
+  "pdf_page": 108,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Roof garden",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Concrete"
+  ],
+  "extracted_props": [
+   "Potted plants",
+   "Steel ladder"
+  ],
+  "assigned_module_ids": [
+   "ROOF-GARDEN-01",
+   "ROOF-LADDER-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-109",
+  "pdf_page": 109,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Tank and roof rooms",
+  "extracted_geometry": [
+   "Round tank ~2.5 m",
+   "Roof toilet room"
+  ],
+  "extracted_materials": [
+   "Concrete",
+   "Grey paint"
+  ],
+  "extracted_props": [
+   "Water tank",
+   "Toilet",
+   "Basin",
+   "Pipes"
+  ],
+  "assigned_module_ids": [
+   "ROOF-TANK-01",
+   "ROOF-WC-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": true
+ },
+ {
+  "photo_id": "PH-110",
+  "pdf_page": 110,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-111",
+  "pdf_page": 111,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-112",
+  "pdf_page": 112,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-113",
+  "pdf_page": 113,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-114",
+  "pdf_page": 114,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-115",
+  "pdf_page": 115,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-116",
+  "pdf_page": 116,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1 (elevated road visible: SW-facing, inferred)",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-117",
+  "pdf_page": 117,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1 (elevated road visible: SW-facing, inferred)",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-118",
+  "pdf_page": 118,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-119",
+  "pdf_page": 119,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-120",
+  "pdf_page": 120,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-121",
+  "pdf_page": 121,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-122",
+  "pdf_page": 122,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-123",
+  "pdf_page": 123,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-124",
+  "pdf_page": 124,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 1",
+  "extracted_geometry": [
+   "Parapet edge",
+   "6-10 storey neighbours"
+  ],
+  "extracted_materials": [
+   "Solid parapet, grey cap"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-02",
+   "SKYLINE-SWEEP-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-125",
+  "pdf_page": 125,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Covered roof terrace",
+  "extracted_geometry": [
+   "Covered terrace with parapet"
+  ],
+  "extracted_materials": [
+   "Red oxide floor",
+   "Grey paint"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PAVILION-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-126",
+  "pdf_page": 126,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Lower roof with washing lines",
+  "extracted_geometry": [
+   "Lower roof block"
+  ],
+  "extracted_materials": [
+   "Grey parapet with square openings"
+  ],
+  "extracted_props": [
+   "Washing lines",
+   "Wall billboard (p126)"
+  ],
+  "assigned_module_ids": [
+   "ROOF-WASHLINE-01",
+   "ROOF-PARAPET-01",
+   "PROP-BILLBOARD"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-127",
+  "pdf_page": 127,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Lower roof with washing lines",
+  "extracted_geometry": [
+   "Lower roof block"
+  ],
+  "extracted_materials": [
+   "Grey parapet with square openings"
+  ],
+  "extracted_props": [
+   "Washing lines",
+   "Wall billboard (p126)"
+  ],
+  "assigned_module_ids": [
+   "ROOF-WASHLINE-01",
+   "ROOF-PARAPET-01",
+   "PROP-BILLBOARD"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-128",
+  "pdf_page": 128,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Bamboo pole and tank",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [
+   "Bamboo pole",
+   "Round tank"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "ROOF-TANK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-129",
+  "pdf_page": 129,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-130",
+  "pdf_page": 130,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-131",
+  "pdf_page": 131,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-132",
+  "pdf_page": 132,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-133",
+  "pdf_page": 133,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [
+   "Satellite dish"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-134",
+  "pdf_page": 134,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-135",
+  "pdf_page": 135,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-136",
+  "pdf_page": 136,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-137",
+  "pdf_page": 137,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-138",
+  "pdf_page": 138,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-139",
+  "pdf_page": 139,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-140",
+  "pdf_page": 140,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Panorama sweep 2",
+  "extracted_geometry": [
+   "Pierced parapet foreground"
+  ],
+  "extracted_materials": [
+   "Pierced parapet"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-PARAPET-01",
+   "SKYLINE-SWEEP-02"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-141",
+  "pdf_page": 141,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Stair and lift-machine rooms",
+  "extracted_geometry": [
+   "Two-tier roof structure",
+   "Steel ladder to upper roof"
+  ],
+  "extracted_materials": [
+   "Grey paint",
+   "Pierced parapet"
+  ],
+  "extracted_props": [
+   "Steel ladder",
+   "Pots"
+  ],
+  "assigned_module_ids": [
+   "ROOF-STAIRROOM-01",
+   "ROOF-LADDER-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-142",
+  "pdf_page": 142,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Covered area with canopy",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Green fibreglass canopy"
+  ],
+  "extracted_props": [
+   "Red plastic chair"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PAVILION-01",
+   "ROOF-CANOPY-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": true
+ },
+ {
+  "photo_id": "PH-143",
+  "pdf_page": 143,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Open roof slab",
+  "extracted_geometry": [
+   "Slab ~30 x 25 m"
+  ],
+  "extracted_materials": [
+   "Grey screed"
+  ],
+  "extracted_props": [
+   "Light-well covers",
+   "Satellite dish",
+   "Laundry"
+  ],
+  "assigned_module_ids": [
+   "ROOF-SLAB-01",
+   "ROOF-CANOPY-01",
+   "ROOF-DISH-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-144",
+  "pdf_page": 144,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Open roof slab",
+  "extracted_geometry": [
+   "Slab ~30 x 25 m"
+  ],
+  "extracted_materials": [
+   "Grey screed"
+  ],
+  "extracted_props": [
+   "Light-well covers",
+   "Satellite dish",
+   "Laundry"
+  ],
+  "assigned_module_ids": [
+   "ROOF-SLAB-01",
+   "ROOF-CANOPY-01",
+   "ROOF-DISH-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-145",
+  "pdf_page": 145,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Roof room door",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Steel door with diagonal pattern"
+  ],
+  "extracted_props": [
+   "Electrical panels",
+   "Red bucket"
+  ],
+  "assigned_module_ids": [
+   "ROOF-STAIRROOM-01",
+   "PROP-PANEL"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-146",
+  "pdf_page": 146,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Covered pavilion",
+  "extracted_geometry": [
+   "Columns ~4.5 m apart"
+  ],
+  "extracted_materials": [
+   "Grey paint",
+   "Screed"
+  ],
+  "extracted_props": [
+   "Light-well cover",
+   "Tank"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PAVILION-01",
+   "ROOF-TANK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-147",
+  "pdf_page": 147,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Covered pavilion",
+  "extracted_geometry": [
+   "Columns ~4.5 m apart"
+  ],
+  "extracted_materials": [
+   "Grey paint",
+   "Screed"
+  ],
+  "extracted_props": [
+   "Light-well cover",
+   "Tank"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PAVILION-01",
+   "ROOF-TANK-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-148",
+  "pdf_page": 148,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Covered corridor",
+  "extracted_geometry": [],
+  "extracted_materials": [
+   "Green canopy"
+  ],
+  "extracted_props": [
+   "Hose coil",
+   "Red chair"
+  ],
+  "assigned_module_ids": [
+   "ROOF-PAVILION-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": true
+ },
+ {
+  "photo_id": "PH-149",
+  "pdf_page": 149,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "rooftop",
+  "zone": "Stair exit onto roof",
+  "extracted_geometry": [
+   "Door frame at stair head"
+  ],
+  "extracted_materials": [
+   "Stainless rail"
+  ],
+  "extracted_props": [],
+  "assigned_module_ids": [
+   "ROOF-STAIRROOM-01",
+   "STAIR-01"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-150",
+  "pdf_page": 150,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Floor lobby (mid varanda)",
+  "extracted_geometry": [
+   "Lobby ~8 x 6 m",
+   "Flat doors on three sides",
+   "Lift pair and stair"
+  ],
+  "extracted_materials": [
+   "White glazed tile",
+   "Brown tile cladding",
+   "Carved teak doors"
+  ],
+  "extracted_props": [
+   "CCTV dome",
+   "Shoes and slippers",
+   "Paint bucket"
+  ],
+  "assigned_module_ids": [
+   "LOBBY-01",
+   "LIFT-01",
+   "DOOR-FLAT-01",
+   "PROP-CCTV"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-151",
+  "pdf_page": 151,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Floor lobby (mid varanda)",
+  "extracted_geometry": [
+   "Lobby ~8 x 6 m",
+   "Flat doors on three sides",
+   "Lift pair and stair"
+  ],
+  "extracted_materials": [
+   "White glazed tile",
+   "Brown tile cladding",
+   "Carved teak doors"
+  ],
+  "extracted_props": [
+   "CCTV dome",
+   "Shoes and slippers",
+   "Paint bucket"
+  ],
+  "assigned_module_ids": [
+   "LOBBY-01",
+   "LIFT-01",
+   "DOOR-FLAT-01",
+   "PROP-CCTV"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-152",
+  "pdf_page": 152,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Floor lobby (mid varanda)",
+  "extracted_geometry": [
+   "Lobby ~8 x 6 m",
+   "Flat doors on three sides",
+   "Lift pair and stair"
+  ],
+  "extracted_materials": [
+   "White glazed tile",
+   "Brown tile cladding",
+   "Carved teak doors"
+  ],
+  "extracted_props": [
+   "CCTV dome",
+   "Shoes and slippers",
+   "Paint bucket"
+  ],
+  "assigned_module_ids": [
+   "LOBBY-01",
+   "LIFT-01",
+   "DOOR-FLAT-01",
+   "PROP-CCTV"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ },
+ {
+  "photo_id": "PH-153",
+  "pdf_page": 153,
+  "position_on_page": "Single photo, full page, landscape",
+  "category": "exterior_9story",
+  "zone": "Floor lobby (mid varanda)",
+  "extracted_geometry": [
+   "Lobby ~8 x 6 m",
+   "Flat doors on three sides",
+   "Lift pair and stair"
+  ],
+  "extracted_materials": [
+   "White glazed tile",
+   "Brown tile cladding",
+   "Carved teak doors"
+  ],
+  "extracted_props": [
+   "CCTV dome",
+   "Shoes and slippers",
+   "Paint bucket"
+  ],
+  "assigned_module_ids": [
+   "LOBBY-01",
+   "LIFT-01",
+   "DOOR-FLAT-01",
+   "PROP-CCTV"
+  ],
+  "image_px": "3072x2304",
+  "people_present": false
+ }
+]

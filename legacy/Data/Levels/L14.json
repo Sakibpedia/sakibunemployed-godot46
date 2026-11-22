@@ -1,0 +1,152 @@
+{
+ "level": 14,
+ "title": "The exam hall",
+ "chapter": "Chapter 5 · Dania College",
+ "brief": "The leaked papers are already inside the exam hall. Someone at the back has the answer key.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B  ##################################  B",
+   "B  #................................#  B",
+   "B  #.P............................X.#  B",
+   "B  #..t..t..t..t..t..t..t..t..t..t..#  B",
+   "B  #...6.....3..6...........6.......#  B",
+   "B  #..t..t..t..t..t..t..t..t..t..t..D EB",
+   "B  #......6...........6.............#  B",
+   "B  #..t..t..t..t..t..t..t..t..t..t..#  B",
+   "B  #...............6.....4.....6....#  B",
+   "B  #..t..t..t..t..t..t..t..t..t..t..#  B",
+   "B  #......6.......................P.#  B",
+   "B  #................................#  B",
+   "B  ################GG################  B",
+   "B  #.................2.......########  B",
+   "B  #..P......................#......#  B",
+   "B  #......Y.............P....D...1..#  B",
+   "B  #.........................#......#  B",
+   "B  ################D#################  B",
+   "B                                      B",
+   "B              C          Y            B",
+   "B    @      P         C         P      B",
+   "B                                      B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Farzana",
+   "grateful": [
+    "tokens:1",
+    "toast:Farzana signs you in as a first-aid volunteer."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Invigilator",
+   "gate": "L14_invigilator",
+   "look": "teacher",
+   "intro": "Candidate? Then you won't mind a little warm-up. Twenty seconds a question."
+  },
+  "3": {
+   "type": "career",
+   "person": "Lipi",
+   "sit": true,
+   "lines": [
+    "(whispering) The boy at the back has the answers. Everyone knows."
+   ]
+  },
+  "4": {
+   "type": "courier",
+   "name": "Candidate at the back",
+   "key": "leak",
+   "sit": true,
+   "static": true,
+   "found": "In his pencil box: the answer key for today's paper."
+  },
+  "6": {
+   "type": "civilian",
+   "name": "Candidate",
+   "sit": true,
+   "static": true
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Farzana",
+   "text": "Farzana is on first-aid duty: talk to her"
+  },
+  {
+   "type": "gate",
+   "gate": "L14_invigilator",
+   "text": "Get into the exam hall past the invigilator"
+  },
+  {
+   "type": "talk",
+   "person": "Lipi",
+   "text": "Talk to Lipi at her desk"
+  },
+  {
+   "type": "search",
+   "key": "leak",
+   "text": "Find the candidate with the leak and take it"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Out by the hall's side door"
+  }
+ ],
+ "gates": {
+  "L14_invigilator": {
+   "gate_id": "L14_invigilator",
+   "level": 14,
+   "gatekeeper": "invigilator",
+   "category": "timed",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "timer_s": 20,
+   "chain": {
+    "max_depth": 3,
+    "lock_after_wrong_in_row": 3
+   },
+   "on_pass": [
+    "cover:kept"
+   ],
+   "on_fail": [
+    "suspicion:+30"
+   ],
+   "opens": "gate0"
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 9.0,
+ "palette": "street",
+ "sector": "dania_college_exam",
+ "crowd": 0,
+ "last_wish_cap": 1,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

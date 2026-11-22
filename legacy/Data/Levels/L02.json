@@ -1,0 +1,231 @@
+{
+ "level": 2,
+ "title": "The lanes",
+ "chapter": "Chapter 1 · Jurain",
+ "brief": "The road to the college is watched, so Sakib cuts through the Jurain lanes: a tea stall, a syndicate checkpoint and a safehouse that only opens for people who know their Bangla.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "B  l C   P    X         l  C        P  B",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbbP bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbbY bbbbbbbbbP bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbb  bbbbbbB",
+   "B @  P                   X   P   Y     B",
+   "B           C                        C B",
+   "Bbbbbbbbbbb,,,,,,,,b 3bbbbbbbbbbbbbbbbbB",
+   "Bbbbbbbbbbb,k,1,,k,bGGbbbbbbbbbbbbbbbbbB",
+   "Bbbbbbbbbbb,,,,,,,,b  bbbbbbbbbbbbbbbbbB",
+   "Bbbbbbbbbbb,n,n,2,,b  ########bbbbbbbbbB",
+   "Bbbbbbbbbbb,,,,,,,,b  #......#bbbbbbbbbB",
+   "Bbbbbbbbbbbbbbbbbbbb 4#...5..#bbbbbbbbbB",
+   "B                     G......#bbbbbbbbbB",
+   "B                     G......#bbbbbbbbbB",
+   "Bbbbbbbb  bbbbbbbbbb  #.t..xx#bbbb    bB",
+   "Bbbbbbbb  bbbbbbbbbb  ########bbbb E  bB",
+   "Bbbbbbbb6rbbbbbbbbbb  bbbbbbbbbbbb    bB",
+   "Bbbbbbbb  bbbbbbbbbb  bbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Babul's tea board",
+   "gate": "L02_teaboard",
+   "look": "shopkeeper",
+   "intro": "Babul taps the chalk board: one question a day, ৳100 if you get it. Miss it and you buy the tea."
+  },
+  "2": {
+   "type": "career",
+   "person": "Mitu",
+   "lines": [
+    "Bhai, you're the one who sits every exam, aren't you?"
+   ]
+  },
+  "3": {
+   "type": "gatekeeper",
+   "name": "Checkpoint boss",
+   "gate": "L02_checkpoint",
+   "look": "goon",
+   "intro": "This lane is ours today. You want through, you answer like a candidate."
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Safehouse auntie",
+   "gate": "L02_safehouse",
+   "intro": "If you're really a student you'll know your Bangla. Five questions, then the door."
+  },
+  "5": {
+   "type": "pickup",
+   "key": "supplies",
+   "label": "Take the medical kit and the map",
+   "give": {
+    "medical": 2,
+    "ammo": 12
+   },
+   "toast": "Two bandages, a box of rounds, and a hand-drawn map of the lanes."
+  },
+  "6": {
+   "type": "driver",
+   "name": "Rickshaw puller",
+   "gate": "L02_rickshaw",
+   "key": "rickshaw",
+   "to": "E",
+   "minutes": 20,
+   "text": "The rickshaw rattles out of the lanes onto the bus road."
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L02_teaboard",
+   "text": "Try the question board at Babul's tea stall"
+  },
+  {
+   "type": "talk",
+   "person": "Mitu",
+   "text": "Talk to Mitu at the tea stall"
+  },
+  {
+   "type": "gate",
+   "gate": "L02_checkpoint",
+   "text": "Get through the syndicate checkpoint south of the main lane"
+  },
+  {
+   "type": "gate",
+   "gate": "L02_safehouse",
+   "text": "Get into the safehouse"
+  },
+  {
+   "type": "pickup",
+   "key": "supplies",
+   "text": "Take the supplies"
+  },
+  {
+   "type": "ride",
+   "key": "rickshaw",
+   "text": "Take the rickshaw out of the lanes"
+  }
+ ],
+ "gates": {
+  "L02_teaboard": {
+   "gatekeeper": "Babul",
+   "category": "board",
+   "size": 1,
+   "pass_points": 1.0,
+   "draw": {
+    "sets": [
+     "P6"
+    ]
+   },
+   "chain": {
+    "max_depth": 0,
+    "recovered_points": 0.5
+   },
+   "no_bribe": true,
+   "story_gate": true,
+   "level_on_pass": [
+    "resource:taka:100"
+   ]
+  },
+  "L02_checkpoint": {
+   "gatekeeper": "checkpoint boss",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 250
+  },
+  "L02_safehouse": {
+   "gatekeeper": "safehouse auntie",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "SP"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "no_bribe": true
+  },
+  "L02_rickshaw": {
+   "gate_id": "L02_rickshaw",
+   "level": 2,
+   "gatekeeper": "rickshaw puller",
+   "category": "ride",
+   "size": 5,
+   "pass_points": 3.0,
+   "compose": [
+    {
+     "sets": [
+      "VEH-RICKSHAW"
+     ],
+     "count": 3
+    },
+    {
+     "sets": [
+      "RS"
+     ],
+     "count": 2
+    }
+   ],
+   "chain": {
+    "max_depth": 3
+   },
+   "scripted": [
+    {
+     "at": 1,
+     "item": "RK1",
+     "chain": [
+      "RK2",
+      "RK3",
+      "CNG3"
+     ]
+    }
+   ],
+   "on_pass": [
+    "vehicle:rickshaw:board"
+   ],
+   "on_fail": [
+    "rep:drivers:-5"
+   ]
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 10.0,
+ "palette": "street",
+ "sector": "lanes_school_rd",
+ "crowd": 35,
+ "last_wish_cap": 1,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

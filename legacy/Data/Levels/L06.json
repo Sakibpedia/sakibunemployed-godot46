@@ -1,0 +1,297 @@
+{
+ "level": 6,
+ "title": "The fifth floor",
+ "chapter": "Chapter 2 · The Tower",
+ "brief": "A family on the fifth floor refused to store the syndicate's papers. Now they're hostages in their own flat.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                    B",
+   "B ######################             B",
+   "B #.>>>>.#.............#             B",
+   "B #......#.............#             B",
+   "B #D############D#######             B",
+   "B #...................L#             B",
+   "B #....................#             B",
+   "B #....................#             B",
+   "B #.......Y............#             B",
+   "B #....................#             B",
+   "B #....................#             B",
+   "B #....................#             B",
+   "B ##########D###########             B",
+   "B #                    #             B",
+   "B #                    #             B",
+   "B #                    #             B",
+   "B ##########  ##########             B",
+   "B------------------------------------B",
+   "B====================================B",
+   "B====================================B",
+   "B------------------------------------B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #.<<<<.#.............#",
+   "  ######D#######D#######",
+   "  #...................L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.>>>>.#.............#",
+   "  #.    .#.............#",
+   "  #D############D#######",
+   "  #...................L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #.<<<<.#.............#",
+   "  ######G#######D#######",
+   "  #......2..@..P.Y...PL#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#...3..#",
+   "  #......#..1...#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #......#.............#",
+   "  #.    .#.............#",
+   "  #D############D#######",
+   "  #.Y.....P.9.....5.P.L#",
+   "  ###D######D######G####",
+   "  #......#......#......#",
+   "  #......#......#....X.#",
+   "  #..4...#......#.X....#",
+   "  #......#......#....6.#",
+   "  #......#......#.6.X..#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Mitu",
+   "grateful": [
+    "reveal:45",
+    "resource:medical:1"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Stair guard",
+   "gate": "L06_stairs",
+   "look": "goon",
+   "intro": "Fifth floor's closed. Five questions, or you take the lift... oh wait, there's no power."
+  },
+  "3": {
+   "type": "gatekeeper",
+   "name": "Night guard (sells diesel)",
+   "gate": "L06_fuel",
+   "look": "guard",
+   "intro": "Diesel for the generator? I know my fuel. Do you?"
+  },
+  "4": {
+   "type": "career",
+   "person": "Rina Apa",
+   "lines": [
+    "Sakib! I taught you Bangla in class six. Sit, sit."
+   ]
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Rina Apa's old student",
+   "gate": "L06_p1",
+   "intro": "The family is behind this door, with their captors. If you're who Rina Apa says, you'll know these."
+  },
+  "6": {
+   "type": "civilian",
+   "name": "Hostage",
+   "cower": true,
+   "static": true
+  },
+  "9": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Mitu",
+   "text": "Mitu is visiting Rina Apa's students on this floor: talk to her"
+  },
+  {
+   "type": "reach",
+   "marker": "9",
+   "text": "Get to the fifth floor: answer the stair guard, or buy diesel so the lift runs"
+  },
+  {
+   "type": "talk",
+   "person": "Rina Apa",
+   "text": "Find Rina Apa"
+  },
+  {
+   "type": "gate",
+   "gate": "L06_p1",
+   "text": "Win the trust of the man guarding the hostages' door"
+  },
+  {
+   "type": "eliminate",
+   "tag": "captor",
+   "count": 3,
+   "text": "Free the family: take down the three captors"
+  }
+ ],
+ "gates": {
+  "L06_stairs": {
+   "gatekeeper": "stair guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 300
+  },
+  "L06_fuel": {
+   "gatekeeper": "night guard",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-FUEL"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "level_on_pass": [
+    "restore:generator",
+    "toast:The generator coughs back to life. The lift works."
+   ]
+  },
+  "L06_p1": {
+   "gatekeeper": "Rina Apa's old student",
+   "category": "door",
+   "size": 3,
+   "pass_points": 2.0,
+   "draw": {
+    "sets": [
+     "P1"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 14.0,
+ "palette": "tower",
+ "sector": "tower_floor5",
+ "crowd": 0,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "marker_tags": {
+  "X": "captor"
+ },
+ "on_start": [
+  "utility:power",
+  "utility:generator"
+ ],
+ "roof_floor": 4,
+ "block_height": 18.0,
+ "roofed": true
+}

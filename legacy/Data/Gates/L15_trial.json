@@ -1,0 +1,38 @@
+{
+ "gate_id": "L15_trial",
+ "level": 15,
+ "gatekeeper": "judge",
+ "category": "legal",
+ "size": 10,
+ "pass_points": 7.0,
+ "draw": {
+  "sets": [
+   "BAR"
+  ],
+  "exclude_sets": [
+   "CHAIN"
+  ]
+ },
+ "timer_s": 30,
+ "chain": {
+  "max_depth": 3,
+  "lock_after_wrong_in_row": 3
+ },
+ "scripted": [
+  {
+   "at": 1,
+   "item": "BAR08",
+   "chain": [
+    "BAR09",
+    "BAR12",
+    "BAR11"
+   ]
+  }
+ ],
+ "on_pass": [
+  "story:rumi_freed"
+ ],
+ "on_fail": [
+  "story:rumi_moved_to_armoury"
+ ]
+}

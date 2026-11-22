@@ -1,0 +1,143 @@
+{
+ "level": 9,
+ "title": "Jurain graveyard",
+ "chapter": "Chapter 3 · Jurain",
+ "brief": "A courier is carrying papers through a funeral at the Jurain graveyard, hidden among the mourners.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B-----------C--------------------------B",
+   "B=@=====X=======P=============P========B",
+   "B======================================B",
+   "B--------------------1------------C----B",
+   "B #################GG################# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,+,,+,,+,,+,,+,,,,,,+,,+,,+,,+,,+,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,Y,,,,,# B",
+   "B #,+,,+Y,+,,+,,+,,P,,,+,,+,,+,,+,,+,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,+,,+,,+,,+,,+,,,,,,+,5+,,+,,+,,+,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,3,,,,,,,,,,,4,,,,,,,,,,,,# B",
+   "B #,,T,,,,4,,T,,,,,,,,,,,,,T,,,,,,,T,# B",
+   "B #,,,,,,,,,,,4,,,,,,,,,,,4,,,,P,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,+,,+,,+,,+,,+,,,,,,+,,+,,+,,+,,+,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,######## B",
+   "B #,+,,+,,+,,+,,+,,P,,,+,,+,,+#.....## B",
+   "B #,,,,,P,,,,,,,,T,,,,,,,,,,,,#.....## B",
+   "B #,+,,+,,+,,+,,+,,,,,,+,,+,2+D.....## B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,#.....## B",
+   "B #,+,,+,,+,,+,,+,,,,,,+,,+,,+######## B",
+   "B #################  ################# B",
+   "B                   E                  B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Caretaker",
+   "gate": "L09_caretaker",
+   "look": "imam",
+   "intro": "A funeral today. I only let in people who know their faith from their facts."
+  },
+  "2": {
+   "type": "career",
+   "person": "Jahid",
+   "lines": [
+    "My father keeps these graves. I'm supposed to keep them after him."
+   ]
+  },
+  "3": {
+   "type": "callback",
+   "person": "Nusrat",
+   "grateful": [
+    "reveal:45",
+    "tokens:1"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "4": {
+   "type": "civilian",
+   "name": "Mourner",
+   "static": true
+  },
+  "5": {
+   "type": "courier",
+   "name": "Mourner in a white panjabi",
+   "key": "papers",
+   "look": "teacher",
+   "found": "Under the panjabi: a sealed envelope of question papers."
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L09_caretaker",
+   "text": "Get the caretaker to open the graveyard gate"
+  },
+  {
+   "type": "talk",
+   "person": "Jahid",
+   "text": "Talk to Jahid by the caretaker's hut"
+  },
+  {
+   "type": "talk",
+   "person": "Nusrat",
+   "text": "Nusrat is among the mourners: talk to her"
+  },
+  {
+   "type": "search",
+   "key": "papers",
+   "text": "Find the courier hiding among the mourners and search him"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Leave by the back gate"
+  }
+ ],
+ "gates": {
+  "L09_caretaker": {
+   "gatekeeper": "caretaker",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 9.5,
+ "palette": "green",
+ "sector": "jurain_kabarsthan",
+ "crowd": 0,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

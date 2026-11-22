@@ -1,0 +1,222 @@
+{
+ "level": 1,
+ "title": "The admit card",
+ "chapter": "Chapter 1 · The Tower",
+ "brief": "Exam day in Jatrabari. Sakib's admit card is on his desk on the first floor of the Tower. The syndicate's boys own the lobby and the doorman owns the gate.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                    B",
+   "B ######################             B",
+   "B #.>>>>.#.2.........mm#             B",
+   "B #......#.............#  T      T   B",
+   "B #D############D#######             B",
+   "B #...........P.......L#        bb   B",
+   "B #....................#        bb   B",
+   "B #..P..............P..#             B",
+   "B #...........3........#     k     T B",
+   "B #.....Y.........Y....#             B",
+   "B #.........P..........#    n        B",
+   "B #p...n..............p#             B",
+   "B ##########D###########             B",
+   "B #                    #      T      B",
+   "B # g               xx #             B",
+   "B #6          4        #             B",
+   "B ##########GG##########             B",
+   "B--7----------------C------k5--------B",
+   "B======================c============EB",
+   "B=======r=========r==================B",
+   "B---------C--------------------C-----B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #......#.............#",
+   "  ######D#######D#######",
+   "  #...................L#",
+   "  ###D######D######D####",
+   "  #p.....#......#......#",
+   "  #...t1.#......#......#",
+   "  #......#......#......#",
+   "  #.@....#......#......#",
+   "  #.....x#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "pickup",
+   "key": "admit_card",
+   "label": "Take your admit card",
+   "toast": "Admit card: roll 1042, Dania College centre. It still smells of the printer."
+  },
+  "2": {
+   "type": "utility",
+   "key": "lights",
+   "label": "Pull the lobby light breaker",
+   "utility": "lights"
+  },
+  "3": {
+   "type": "career",
+   "person": "Tanvir",
+   "lines": [
+    "Bhai! Exam today? The syndicate boys are in the lobby again.",
+    "Before you go... can I ask you something?"
+   ]
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Doorman",
+   "gate": "L01_doorman",
+   "look": "doorman",
+   "intro": "Nobody leaves this compound during the syndicate's hours without answering me. Five questions. Three right and the gate opens."
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Kajla Superstore clerk",
+   "gate": "L01_pen",
+   "look": "shopkeeper",
+   "intro": "A pen for the exam? Prove you know what you're buying."
+  },
+  "6": {
+   "type": "bypass",
+   "key": "parking_wall",
+   "label": "Climb the parking wall (noisy)",
+   "to": "7",
+   "gate": "L01_doorman",
+   "noise": 64,
+   "toast": "You haul yourself over the wall and drop onto School Road. Someone heard that."
+  },
+  "7": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "pickup",
+   "key": "admit_card",
+   "text": "Take your admit card from the desk"
+  },
+  {
+   "type": "talk",
+   "person": "Tanvir",
+   "text": "Go down to the lobby and talk to Tanvir"
+  },
+  {
+   "type": "utility",
+   "key": "lights",
+   "text": "Cut the lobby lights in the meter room (in the dark they see half as far)"
+  },
+  {
+   "type": "gate",
+   "gate": "L01_doorman",
+   "text": "Get past the doorman at the compound gate: answer him, pay him, or climb the parking wall"
+  },
+  {
+   "type": "gate",
+   "gate": "L01_pen",
+   "text": "Buy an exam pen at Kajla Superstore"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Walk east along School Road to Dania College"
+  }
+ ],
+ "gates": {
+  "L01_doorman": {
+   "gate_id": "L01_doorman",
+   "level": 1,
+   "gatekeeper": "doorman",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "on_pass": [
+    "door:tower_gate:open"
+   ],
+   "on_fail": [
+    "alert:+10",
+    "retry_after_game_min:60"
+   ],
+   "bypass": "climb:parking_wall",
+   "opens": "gate0"
+  },
+  "L01_pen": {
+   "gate_id": "L01_pen",
+   "level": 1,
+   "gatekeeper": "Kajla Superstore clerk",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-PEN"
+    ]
+   },
+   "chain": {
+    "max_depth": 3
+   },
+   "scripted": [
+    {
+     "at": 1,
+     "item": "PEN1",
+     "chain": [
+      "PEN2",
+      "PEN3",
+      "PEN4"
+     ]
+    }
+   ],
+   "on_pass": [
+    "give:exam_pen"
+   ],
+   "on_fail": [
+    "price:double"
+   ]
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 9.0,
+ "palette": "tower",
+ "sector": "tower_ground",
+ "crowd": 40,
+ "last_wish_cap": 1,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "intro": [
+  "Exam day. The admit card is on my desk.",
+  "The syndicate has men in the lobby again. Stay out of their sight, or cut the lights."
+ ],
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

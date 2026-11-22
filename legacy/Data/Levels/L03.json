@@ -1,0 +1,185 @@
+{
+ "level": 3,
+ "title": "Kajla bus station",
+ "chapter": "Chapter 1 · The highway",
+ "brief": "The question papers travel by bus. Sakib needs a tracker on the courier bus at Kajla, and a CNG out before the syndicate's men work out who he is.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,n,,,,,,,,,,,n,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,,,,,,,,,,,,,B",
+   "B,,,,,,,u,,,,,,,,,,,u,,,,,,,,,,,u,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,P,,,,,,,X,,,P,,,3,,,,,,,P,,,,5,,,,,P,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B####################GG####################B",
+   "B-@---P-C-----Y-----2---------P---------P--B",
+   "B==========================================B",
+   "B=========c================================B",
+   "B=========================c=========r======B",
+   "B===============r==========================B",
+   "B---------P--------------C----k1----Y---C--B",
+   "B                 C            bbbbbbbbbbbbB",
+   "B                              bbbbbbbbbbbbB",
+   "Bb,,,,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "Bb,6,,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "Bb,,r,bbbbbbbbbbbbbbbbbbbbbbbbbbbb        bB",
+   "Bb,,,,bbbbbbbbbbbbbbbbbbbbbbbbbbbb        bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb    E   bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb        bB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb        bB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Pharmacist",
+   "gate": "L03_pharmacy",
+   "look": "shopkeeper",
+   "intro": "Bandages and painkillers? Tell me what you're buying first. I don't sell to fools."
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Ticket counter man",
+   "gate": "L03_ticket",
+   "look": "guard",
+   "intro": "Platform's closed to anyone without a ticket. Or a brain. Five questions."
+  },
+  "3": {
+   "type": "career",
+   "person": "Rasel",
+   "lines": [
+    "Oi, student bhai! You read a lot. Tell me something."
+   ]
+  },
+  "5": {
+   "type": "task",
+   "key": "tag",
+   "label": "Slip the tracker under the courier bus",
+   "noise": 40,
+   "toast": "The tracker clicks onto the chassis. Shirin's friends can follow the bus now."
+  },
+  "6": {
+   "type": "driver",
+   "name": "CNG driver",
+   "gate": "L03_cng",
+   "key": "cng",
+   "to": "E",
+   "minutes": 25,
+   "text": "The CNG weaves through the traffic and drops you by the college road."
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L03_pharmacy",
+   "text": "Buy bandages at the pharmacy kiosk on the south pavement"
+  },
+  {
+   "type": "gate",
+   "gate": "L03_ticket",
+   "text": "Get onto the bus platform past the ticket counter"
+  },
+  {
+   "type": "talk",
+   "person": "Rasel",
+   "text": "Talk to Rasel, the conductor's helper"
+  },
+  {
+   "type": "task",
+   "key": "tag",
+   "text": "Put a tracker on the courier bus (the east bay)"
+  },
+  {
+   "type": "ride",
+   "key": "cng",
+   "text": "Take a CNG from the stand on the south side"
+  }
+ ],
+ "gates": {
+  "L03_pharmacy": {
+   "gatekeeper": "pharmacist",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-MED"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "level_on_pass": [
+    "resource:medical:2"
+   ]
+  },
+  "L03_ticket": {
+   "gatekeeper": "ticket counter man",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 200
+  },
+  "L03_cng": {
+   "gatekeeper": "CNG driver",
+   "category": "ride",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "compose": [
+    {
+     "sets": [
+      "VEH-CNG"
+     ],
+     "count": 3
+    },
+    {
+     "sets": [
+      "RS"
+     ],
+     "count": 2
+    }
+   ]
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 11.5,
+ "palette": "street",
+ "sector": "kajla_bus_station",
+ "crowd": 60,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

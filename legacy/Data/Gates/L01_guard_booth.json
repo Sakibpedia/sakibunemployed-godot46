@@ -1,0 +1,24 @@
+{
+ "gate_id": "L01_guard_booth",
+ "level": 1,
+ "gatekeeper": "booth guard",
+ "category": "door",
+ "size": 5,
+ "pass_points": 3.0,
+ "draw": {
+  "sets": [
+   "G"
+  ]
+ },
+ "chain": {
+  "max_depth": 3,
+  "recovered_points": 0.5
+ },
+ "on_pass": [
+  "door:service_grille:open"
+ ],
+ "on_fail": [
+  "alert:+10"
+ ],
+ "bypass": "crawl:side_passage"
+}

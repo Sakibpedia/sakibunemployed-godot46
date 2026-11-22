@@ -1,0 +1,433 @@
+{
+ "sets": {
+  "brick_weathered": {
+   "folder": "surfaces",
+   "tile_m": 0.96,
+   "notes": "Hand-moulded red brick, half-bond, salt bloom, old render, moss, soot runs",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "asphalt_cracked": {
+   "folder": "surfaces",
+   "tile_m": 4.0,
+   "notes": "Sun-faded asphalt, exposed aggregate, alligator and long cracks, oil, a repair patch",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "tin_corrugated_rust": {
+   "folder": "surfaces",
+   "tile_m": 2.0,
+   "notes": "Corrugated galvanised sheet, nailed seams, rust runs",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "tin_corrugated_painted": {
+   "folder": "surfaces",
+   "tile_m": 2.0,
+   "notes": "Corrugated galvanised sheet, nailed seams, rust runs, peeling paint",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "concrete_moss": {
+   "folder": "surfaces",
+   "tile_m": 2.0,
+   "notes": "Board-marked concrete, tie holes, pores, cracks, soot runs, black mould, moss in the low spots",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "plaster_peeling": {
+   "folder": "surfaces",
+   "tile_m": 2.0,
+   "notes": "Off-white paint over grey render, light local peeling, hairline cracks, faint damp marks (tint in the material for coloured walls)",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "tile_rubber": {
+   "folder": "surfaces",
+   "tile_m": 1.2,
+   "notes": "300 mm rubber-pattern tiles in red, green and grey, studded, worn in the traffic lanes",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "awning_red_white": {
+   "folder": "awnings",
+   "tile_m": 1.6,
+   "notes": "Red and white canvas stripes, sun-faded",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "awning_blue_yellow": {
+   "folder": "awnings",
+   "tile_m": 1.6,
+   "notes": "Blue and yellow stripes with thin white pinstripes",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "awning_green_cream": {
+   "folder": "awnings",
+   "tile_m": 1.6,
+   "notes": "Wide green and cream stripes with a red accent",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "tarp_blue": {
+   "folder": "awnings",
+   "tile_m": 2.0,
+   "notes": "Blue plastic tarpaulin: crinkles, seams, grommets",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "tarp_orange": {
+   "folder": "awnings",
+   "tile_m": 2.0,
+   "notes": "Orange tarpaulin, faded",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "gamchha_check": {
+   "folder": "awnings",
+   "tile_m": 0.8,
+   "notes": "Gamchha-style red, green and white woven check",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "lungi_check_blue": {
+   "folder": "cloth",
+   "tile_m": 0.5,
+   "notes": "Woven lungi check (twill), for Humanoid lower bodies",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "lungi_check_green": {
+   "folder": "cloth",
+   "tile_m": 0.5,
+   "notes": "Woven lungi check (twill), for Humanoid lower bodies",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "lungi_check_maroon": {
+   "folder": "cloth",
+   "tile_m": 0.5,
+   "notes": "Woven lungi check (twill), for Humanoid lower bodies",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "panjabi_white": {
+   "folder": "cloth",
+   "tile_m": 0.4,
+   "notes": "Slub cotton panjabi cloth with a faint self-stripe",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "panjabi_sky": {
+   "folder": "cloth",
+   "tile_m": 0.4,
+   "notes": "Slub cotton panjabi cloth with a faint self-stripe",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "shirt_check_blue": {
+   "folder": "cloth",
+   "tile_m": 0.3,
+   "notes": "Small blue shirt check",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "kameez_print_rose": {
+   "folder": "cloth",
+   "tile_m": 0.4,
+   "notes": "Block-printed kameez cloth",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "kameez_print_teal": {
+   "folder": "cloth",
+   "tile_m": 0.4,
+   "notes": "Block-printed kameez cloth",
+   "size": 512,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "grille_steel": {
+   "folder": "cutouts",
+   "tile_m": 1.0,
+   "notes": "Painted steel window grille with diamond motif; alpha cut-out, use alpha scissor 0.5",
+   "size": 512,
+   "alpha": true,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "decal_grime_streaks": {
+   "folder": "decals",
+   "tile_m": 2.0,
+   "notes": "Soot and rain-free grime runs under a window sill (RGBA decal)",
+   "size": 512,
+   "alpha": true,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "decal_water_stain": {
+   "folder": "decals",
+   "tile_m": 1.5,
+   "notes": "Damp patch with tide lines (RGBA decal)",
+   "size": 512,
+   "alpha": true,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "decal_poster_torn": {
+   "folder": "decals",
+   "tile_m": 0.8,
+   "notes": "Torn election-style poster, colour blocks only (RGBA decal)",
+   "size": 512,
+   "alpha": true,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  },
+  "plaster_clean": {
+   "folder": "surfaces",
+   "tile_m": 2.0,
+   "notes": "Fresh painted render for facades",
+   "size": 1024,
+   "alpha": false,
+   "maps": [
+    "albedo",
+    "normal",
+    "roughness",
+    "ao",
+    "orm",
+    "height"
+   ]
+  }
+ },
+ "shared": {
+  "grime_noise": "R macro variation, G vertical streaks, B speckle, A cells (512 px, linear)",
+  "sky_smog_cover": "2048x1024 panorama for ProceduralSkyMaterial.sky_cover: smog band on the horizon, broken haze above"
+ },
+ "conventions": {
+  "normal": "OpenGL (green up), Godot default",
+  "orm": "R ambient occlusion, G roughness, B metallic",
+  "albedo": "sRGB",
+  "other maps": "linear"
+ },
+ "faces": [
+  "sakib",
+  "m_young_clean",
+  "m_mustache",
+  "m_beard_full",
+  "m_elder_white",
+  "m_stubble_dark",
+  "m_goon_scar",
+  "m_henna_beard",
+  "m_curly_young",
+  "m_glasses_mid",
+  "m_round_clean",
+  "m_beard_trim",
+  "f_young",
+  "f_nosepin",
+  "f_wheat",
+  "f_elder",
+  "f_lawyer_bun",
+  "f_wavy_side",
+  "f_soft_bun",
+  "f_cateye",
+  "f_straight_smile",
+  "f_round_bindi",
+  "f_matron_bindi",
+  "f_saree_elder2",
+  "f_red_hair",
+  "f_bold_kajal",
+  "f_flower_bun"
+ ]
+}

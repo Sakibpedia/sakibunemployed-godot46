@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="28" viewBox="0 0 360 28">
+<defs>
+</defs>
+<path d="M9,1 L359,1 L359,19 L351,27 L1,27 L1,9 Z" fill="none" stroke="#F2A93B" stroke-opacity="0.8" stroke-width="2"/>
+<path d="M330,27 L351,27" stroke="#E5487F" stroke-width="3"/>
+</svg>

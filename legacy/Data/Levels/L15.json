@@ -1,0 +1,190 @@
+{
+ "level": 15,
+ "title": "Rumi's trial",
+ "chapter": "Chapter 5 · Jatrabari court",
+ "brief": "Rumi, who printed the first story about the leak, is in the dock on a fake charge. Win the trial and she walks; lose and she's moved to the syndicate's armoury.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B  ##################################  B",
+   "B  #........#.......#......#........#  B",
+   "B  #........#.......#.x...x#........#  B",
+   "B  #..t...t.#.......#......#...5....#  B",
+   "B  #........#.......#...4..#........#  B",
+   "B  #....2...#...3...#......#........#  B",
+   "B  #........#.......#......#.n...n..#  B",
+   "B  #........#.......#.x....#........#  B",
+   "B  #........#.......#......#.n...n..#  B",
+   "B  #........#.......#......#........#  B",
+   "B  #####D#######D#######D######D#####  B",
+   "B  #................................#  B",
+   "B  #..P.....X...............Y....P..D EB",
+   "B  #................................#  B",
+   "B  ################GG################  B",
+   "B  #.................1..............#  B",
+   "B  #.P........C.....................#  B",
+   "B  #....n...n..............n...n....#  B",
+   "B  #......Y..............C........P.#  B",
+   "B  #................................#  B",
+   "B  ################D#################  B",
+   "B                                      B",
+   "B         C        @                   B",
+   "B                                      B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Court clerk",
+   "gate": "L15_clerk",
+   "look": "lawyer",
+   "intro": "Everyone wants the inner corridor today. Five questions, or a fee."
+  },
+  "2": {
+   "type": "career",
+   "person": "Masud",
+   "lines": [
+    "Legal aid doesn't pay, bhai. But somebody has to do it."
+   ]
+  },
+  "3": {
+   "type": "callback",
+   "person": "Kamal",
+   "grateful": [
+    "tokens:1",
+    "toast:Kamal will testify. In the trial, a study token strikes two wrong options."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "pass_plus:L15_trial:1",
+    "toast:Kamal gave false evidence. The trial's pass mark rises by one."
+   ]
+  },
+  "4": {
+   "type": "pickup",
+   "key": "recorder",
+   "label": "Take the voice recorder from evidence",
+   "toast": "Kibria's voice, naming prices for papers."
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Judge",
+   "gate": "L15_trial",
+   "look": "lawyer",
+   "intro": "Rumi's bail hearing. Ten questions of law, thirty seconds each. Seven, and she walks."
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L15_clerk",
+   "text": "Get the clerk to let you into the inner corridor"
+  },
+  {
+   "type": "talk",
+   "person": "Masud",
+   "text": "Talk to Masud at the legal-aid office"
+  },
+  {
+   "type": "talk",
+   "person": "Kamal",
+   "text": "Kamal is waiting to testify: talk to him"
+  },
+  {
+   "type": "pickup",
+   "key": "recorder",
+   "text": "Take the recorder from the evidence room"
+  },
+  {
+   "type": "gate",
+   "gate": "L15_trial",
+   "text": "Rumi's trial: argue it in front of the judge"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Leave by the back door"
+  }
+ ],
+ "gates": {
+  "L15_clerk": {
+   "gatekeeper": "court clerk",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 300
+  },
+  "L15_trial": {
+   "gate_id": "L15_trial",
+   "level": 15,
+   "gatekeeper": "judge",
+   "category": "legal",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "BAR"
+    ],
+    "exclude_sets": [
+     "CHAIN"
+    ]
+   },
+   "timer_s": 30,
+   "chain": {
+    "max_depth": 3,
+    "lock_after_wrong_in_row": 3
+   },
+   "scripted": [
+    {
+     "at": 1,
+     "item": "BAR08",
+     "chain": [
+      "BAR09",
+      "BAR12",
+      "BAR11"
+     ]
+    }
+   ],
+   "on_pass": [
+    "story:rumi_freed"
+   ],
+   "on_fail": [
+    "story:rumi_moved_to_armoury"
+   ],
+   "story_gate": true,
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 10.5,
+ "palette": "street",
+ "sector": "jatrabari_legal_aid",
+ "crowd": 0,
+ "last_wish_cap": 1,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

@@ -1,0 +1,42 @@
+{
+ "gate_id": "L02_rickshaw",
+ "level": 2,
+ "gatekeeper": "rickshaw puller",
+ "category": "ride",
+ "size": 5,
+ "pass_points": 3.0,
+ "compose": [
+  {
+   "sets": [
+    "VEH-RICKSHAW"
+   ],
+   "count": 3
+  },
+  {
+   "sets": [
+    "RS"
+   ],
+   "count": 2
+  }
+ ],
+ "chain": {
+  "max_depth": 3
+ },
+ "scripted": [
+  {
+   "at": 1,
+   "item": "RK1",
+   "chain": [
+    "RK2",
+    "RK3",
+    "CNG3"
+   ]
+  }
+ ],
+ "on_pass": [
+  "vehicle:rickshaw:board"
+ ],
+ "on_fail": [
+  "rep:drivers:-5"
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "level": 10,
+ "title": "Masjid Road",
+ "chapter": "Chapter 3 · Masjid Road",
+ "brief": "Before Zuhr the syndicate will cut the minaret's loudspeaker line, so nobody can call the neighbourhood out when the papers move.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb##################bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,#............#,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,#..n......n..#,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,#............#,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,######DD######,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,,,,,,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#d,,,,,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb#,,,,,,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbbB",
+   "Bbbb########GG########bbbbbbbbbbbbbbbbbbbbbB",
+   "B---P-----C---1-------Y-k-----------k3--P--B",
+   "B==========================r=====c=========B",
+   "B=@======r==========c======================B",
+   "B-----k-Y-------C--------C----P--------C---B",
+   "B                           2   4          B",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#######G#######bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#...P.........#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#..t..t...t.P.#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#........X....#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#.X...........#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#..t..t.....X.#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb#.......P.....#bbbbB",
+   "Bbbbbbbbbbbbbbbbbbbbbbbb###############bbbbB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Imam",
+   "gate": "L10_imam",
+   "look": "imam",
+   "intro": "Climb my minaret to spy on a madrasa? Ten questions first. Seven."
+  },
+  "2": {
+   "type": "career",
+   "person": "Kamal",
+   "lines": [
+    "I teach the boys their letters and their prayers. Is that enough, these days?"
+   ]
+  },
+  "3": {
+   "type": "callback",
+   "person": "Habib",
+   "grateful": [
+    "resource:batteries:2",
+    "reveal:30"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Madrasa principal",
+   "gate": "L10_madrasa",
+   "look": "imam",
+   "intro": "Strangers in my madrasa during lessons? Show me you've studied."
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Kamal",
+   "text": "Talk to Kamal outside the madrasa"
+  },
+  {
+   "type": "talk",
+   "person": "Habib",
+   "text": "Habib is selling batteries on Masjid Road: talk to him"
+  },
+  {
+   "type": "gate",
+   "gate": "L10_imam",
+   "text": "Ask the imam to let you up the minaret (you'll see the madrasa yard)"
+  },
+  {
+   "type": "gate",
+   "gate": "L10_madrasa",
+   "text": "Get the madrasa principal to open the door"
+  },
+  {
+   "type": "eliminate",
+   "tag": "saboteur",
+   "count": 3,
+   "text": "Stop the three saboteurs cutting the loudspeaker line"
+  }
+ ],
+ "gates": {
+  "L10_imam": {
+   "gatekeeper": "imam",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "no_bribe": true,
+   "level_on_pass": [
+    "reveal:60",
+    "toast:From the minaret you can see every man in the madrasa yard."
+   ]
+  },
+  "L10_madrasa": {
+   "gatekeeper": "madrasa principal",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "SP"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 11.0,
+ "palette": "street",
+ "sector": "masjid_rd",
+ "crowd": 55,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "marker_tags": {
+  "X": "saboteur"
+ },
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

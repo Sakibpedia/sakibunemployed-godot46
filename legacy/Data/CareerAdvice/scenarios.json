@@ -1,0 +1,753 @@
+{
+ "schema_version": 1,
+ "scenarios": [
+  {
+   "person": "Tanvir",
+   "age": 22,
+   "role": "the Tower's lift and generator boy",
+   "area": "Jatrabari",
+   "home_sector": "tower_ground",
+   "level_met": 1,
+   "callback_levels": [
+    5
+   ],
+   "situation": "SSC pass, good with wires; his family wants a government job",
+   "options": {
+    "A": {
+     "label": "Polytechnic diploma in electrical at night",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Keep sitting government tests",
+     "fit": -1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Pay the syndicate's job broker",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:gate_spare_key"
+     ]
+    }
+   },
+   "callback_grateful": "Shows the silent generator cut-off and kills the CCTV",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Guards the generator bay for the syndicate and trips the alarm",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Mitu",
+   "age": 19,
+   "role": "daughter of the tea-stall owner",
+   "area": "Jatrabari",
+   "home_sector": "lanes_school_rd",
+   "level_met": 2,
+   "callback_levels": [
+    6,
+    13
+   ],
+   "situation": "HSC with strong maths; offered a factory office job",
+   "options": {
+    "A": {
+     "label": "Prepare for the primary assistant teacher test",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Take the factory office job now",
+     "fit": 1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Buy a suggestion sheet from Shortcut Coaching",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:gossip_tea"
+     ]
+    }
+   },
+   "callback_grateful": "Hides the hostage family's children (L6); passes on the paper van's schedule (L13)",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Gives the syndicate Sakib's floor plan (L6); delays the roadblock (L13)",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Rasel",
+   "age": 20,
+   "role": "conductor's helper at Kajla Bus Station",
+   "area": "Jatrabari",
+   "home_sector": "kajla_bus_station",
+   "level_met": 3,
+   "callback_levels": [
+    7
+   ],
+   "situation": "Wants to drive; a broker offers a Malaysia visa",
+   "options": {
+    "A": {
+     "label": "Learn to drive and pass the BRTA test",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Take the broker's visa",
+     "fit": -1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Run papers on the courier bus",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:tag_bus"
+     ]
+    }
+   },
+   "callback_grateful": "Parks the owner's truck across the paper-stock exit",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Drives the paper truck and rams the barricade",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Nusrat",
+   "age": 21,
+   "role": "honours student at Dania College",
+   "area": "Jatrabari",
+   "home_sector": "dania_college",
+   "level_met": 4,
+   "callback_levels": [
+    9
+   ],
+   "situation": "Top of her class; torn between law and BCS coaching",
+   "options": {
+    "A": {
+     "label": "Do an LLB, then the Bar Council exam",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Drop out to cram for BCS",
+     "fit": -1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Sit model tests as the syndicate's proxy",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:staff_id"
+     ]
+    }
+   },
+   "callback_grateful": "Quietly points out the courier among the mourners",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Warns the courier, who runs",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Habib",
+   "age": 35,
+   "role": "battery technician near the Tower",
+   "area": "Jatrabari",
+   "home_sector": "tower_street",
+   "level_met": 5,
+   "callback_levels": [
+    10
+   ],
+   "situation": "His shop is failing; the syndicate wants its radios repaired",
+   "options": {
+    "A": {
+     "label": "Take a small business loan and train apprentices",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Sell up and go abroad",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Repair the syndicate's radios",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "resource:batteries:2"
+     ]
+    }
+   },
+   "callback_grateful": "Runs a backup power line to the minaret loudspeaker",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Tries to cut the loudspeaker wiring",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Rina Apa",
+   "age": 58,
+   "role": "retired teacher on the 5th floor",
+   "area": "Jatrabari",
+   "home_sector": "tower_floor5",
+   "level_met": 6,
+   "callback_levels": [
+    11
+   ],
+   "situation": "Tuition income gone; Kibria offers her a coaching post",
+   "options": {
+    "A": {
+     "label": "Run a free study circle for girls in the lobby",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Move abroad to her son",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Join Kibria's coaching",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:kibria_timetable"
+     ]
+    }
+   },
+   "callback_grateful": "Her study circle walks with the procession and screens Sakib's route",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Points Sakib out to the coaching's spotters",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Sohel",
+   "age": 24,
+   "role": "packs papers in the unfinished flats",
+   "area": "Jatrabari",
+   "home_sector": "tower_floor7",
+   "level_met": 7,
+   "callback_levels": [
+    12
+   ],
+   "situation": "Paid daily by the syndicate, wants out but owes money",
+   "options": {
+    "A": {
+     "label": "Walk away to a construction-site job",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Stay a month, save, then quit",
+     "fit": -1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Go to the local police",
+     "fit": -1,
+     "corrupt": false,
+     "immediate": []
+    }
+   },
+   "callback_grateful": "Opens the coaching centre's back door to the server room",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Now Kibria's bodyguard, he holds the server room",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Farzana",
+   "age": 23,
+   "role": "keeps the roof garden next door",
+   "area": "Jatrabari",
+   "home_sector": "tower_roof",
+   "level_met": 8,
+   "callback_levels": [
+    14
+   ],
+   "situation": "Wants to nurse; her family pushes BCS general cadre",
+   "options": {
+    "A": {
+     "label": "Nursing diploma",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "BCS general cadre",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Receptionist at Shortcut Coaching",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:roof_key"
+     ]
+    }
+   },
+   "callback_grateful": "On first-aid duty at the exam centre, she covers Sakib's absence",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Tells the invigilator Sakib is not who he claims",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Jahid",
+   "age": 25,
+   "role": "son of the graveyard caretaker",
+   "area": "Jatrabari",
+   "home_sector": "jurain_kabarsthan",
+   "level_met": 9,
+   "callback_levels": [
+    13
+   ],
+   "situation": "Wants to leave the graves for a city job",
+   "options": {
+    "A": {
+     "label": "Keep the post and sit the office-assistant recruitment test",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Garment-factory job",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Rent a vault to the syndicate as a stash",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:courier_plot"
+     ]
+    }
+   },
+   "callback_grateful": "Blocks the van with the graveyard pickup",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Rides in the van as a lookout",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Kamal",
+   "age": 30,
+   "role": "madrasa teacher on Masjid Road",
+   "area": "Jatrabari",
+   "home_sector": "masjid_rd",
+   "level_met": 10,
+   "callback_levels": [
+    15
+   ],
+   "situation": "Wants to become an advocate",
+   "options": {
+    "A": {
+     "label": "Evening LLB, then the Bar Council exam",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Stay a teacher",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Sign statements for the syndicate's lawyer",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:lawyer_address"
+     ]
+    }
+   },
+   "callback_grateful": "Testifies truthfully and strikes two wrong options in one trial question",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Gives false evidence; the trial's pass mark rises by 1",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Shirin",
+   "age": 22,
+   "role": "journalism student marching in the procession",
+   "area": "Jatrabari",
+   "home_sector": "shonir_akhra",
+   "level_met": 11,
+   "callback_levels": [
+    16
+   ],
+   "situation": "Wants to report; the coaching offers paid PR work",
+   "options": {
+    "A": {
+     "label": "Write the leak story for the local paper",
+     "fit": 1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Prepare for bank jobs",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "PR for Shortcut Coaching",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:coaching_floor_plan"
+     ]
+    }
+   },
+   "callback_grateful": "Her story makes the boatman trust Sakib; she rides along to photograph the press",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Tips off the press guard",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Arif",
+   "age": 23,
+   "role": "coaching student who paid for a leak",
+   "area": "Jatrabari",
+   "home_sector": "kajla_rd",
+   "level_met": 12,
+   "callback_levels": [
+    17
+   ],
+   "situation": "Terrified of being caught",
+   "options": {
+    "A": {
+     "label": "Quit the leak and study past papers in the college library",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Switch to a vocational course",
+     "fit": 1,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Use the leak once, then stop",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:leak_price_list"
+     ]
+    }
+   },
+   "callback_grateful": "Guides Sakib's disguise through the mela and names the couriers",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Leads the goons in the mela",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Babu",
+   "age": 32,
+   "role": "CNG driver at the fuel pump",
+   "area": "Jatrabari",
+   "home_sector": "n1_frontage",
+   "level_met": 13,
+   "callback_levels": [
+    18
+   ],
+   "situation": "Wants his own CNG",
+   "options": {
+    "A": {
+     "label": "Join the drivers' cooperative and save",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Drive in the Gulf",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Borrow from the syndicate's lender",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:free_rides"
+     ]
+    }
+   },
+   "callback_grateful": "Ferries the armoury stock in his CNG",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "The lender owns his CNG, and he drives for the armoury",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Lipi",
+   "age": 26,
+   "role": "BCS candidate in the exam hall",
+   "area": "Jatrabari",
+   "home_sector": "dania_college",
+   "level_met": 14,
+   "callback_levels": [
+    19
+   ],
+   "situation": "A leaked paper is offered in the hall",
+   "options": {
+    "A": {
+     "label": "Report it anonymously and sit honestly",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Walk out and try the next BCS",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Take the leak",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:point_out_courier"
+     ]
+    }
+   },
+   "callback_grateful": "Vouches for Sakib on three floors, waiving their gates",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Tips off the floor guards",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Masud",
+   "age": 29,
+   "role": "clerk at the legal-aid centre",
+   "area": "Jatrabari",
+   "home_sector": "jatrabari_legal_aid",
+   "level_met": 15,
+   "callback_levels": [
+    20
+   ],
+   "situation": "Wants to be an advocate",
+   "options": {
+    "A": {
+     "label": "Sit the Bar Council exam on its seven subjects",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Corporate office job",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Work for the syndicate's lawyer",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:trial_order"
+     ]
+    }
+   },
+   "callback_grateful": "Arrives with an honest police team as Kibria falls",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Serves a fake notice that holds Sakib on the stairs before 6 PM",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  },
+  {
+   "person": "Imran",
+   "age": 20,
+   "role": "the boatman's son at the ghat",
+   "area": "Jatrabari",
+   "home_sector": "river_ghat",
+   "level_met": 16,
+   "callback_levels": [
+    20
+   ],
+   "situation": "Wants a ship's crew course",
+   "options": {
+    "A": {
+     "label": "Ship-crew training",
+     "fit": 2,
+     "corrupt": false,
+     "immediate": []
+    },
+    "B": {
+     "label": "Keep ferrying",
+     "fit": 0,
+     "corrupt": false,
+     "immediate": []
+    },
+    "C": {
+     "label": "Crew the syndicate's smuggling boats",
+     "fit": -2,
+     "corrupt": true,
+     "immediate": [
+      "give:free_crossing"
+     ]
+    }
+   },
+   "callback_grateful": "Flashes a mirror from a neighbouring roof to blind a sniper",
+   "callback_mixed": "Offers a warning or a small favour, nothing more",
+   "callback_bitter": "Spots for the snipers",
+   "summary_grateful": "the advice worked and life is better",
+   "summary_mixed": "things went half right",
+   "summary_bitter": "the advice went wrong and it cost them"
+  }
+ ],
+ "entanglements": [
+  {
+   "target": "Habib",
+   "when_option": {
+    "Tanvir": "A",
+    "Habib": "A"
+   },
+   "effect": 1,
+   "note": "Habib hires Tanvir"
+  },
+  {
+   "target": "Tanvir",
+   "when_option": {
+    "Tanvir": "A",
+    "Habib": "A"
+   },
+   "effect": 1,
+   "note": "Habib hires Tanvir"
+  },
+  {
+   "target": "Habib",
+   "when_option": {
+    "Tanvir": "C"
+   },
+   "effect": -1,
+   "note": "The broker squeezes Habib's shop"
+  },
+  {
+   "target": "Mitu",
+   "when_option": {
+    "Rina Apa": "A"
+   },
+   "effect": 1,
+   "note": "Mitu joins the study circle (counts for the Level 13 callback)"
+  },
+  {
+   "target": "Mitu",
+   "when_option": {
+    "Rina Apa": "C"
+   },
+   "effect": -1,
+   "note": "Mitu is lured into the coaching"
+  },
+  {
+   "target": "Kamal",
+   "when_option": {
+    "Masud": "C"
+   },
+   "effect": -1,
+   "note": "Masud working for the syndicate's lawyer discredits Kamal"
+  },
+  {
+   "target": "Arif",
+   "when_option": {
+    "Sohel": "A"
+   },
+   "effect": 1,
+   "note": "The leak ring weakens"
+  },
+  {
+   "target": "Arif",
+   "when_option": {
+    "Sohel": "B",
+    "Arif": "C"
+   },
+   "effect": -1,
+   "note": "Both caught in one raid"
+  },
+  {
+   "target": "Sohel",
+   "when_option": {
+    "Sohel": "B",
+    "Arif": "C"
+   },
+   "effect": -1,
+   "note": "Both caught in one raid"
+  },
+  {
+   "target": "Lipi",
+   "when_outcome": {
+    "Farzana": "grateful"
+   },
+   "effect": 1,
+   "note": "Farzana shields Lipi's report"
+  },
+  {
+   "target": "Babu",
+   "when_outcome": {
+    "Jahid": "bitter"
+   },
+   "effect": -1,
+   "note": "The van crew threatens the cooperative"
+  },
+  {
+   "target": "Imran",
+   "when_outcome": {
+    "Shirin": "grateful"
+   },
+   "effect": 1,
+   "note": "Imran has read Shirin's story"
+  }
+ ],
+ "trial_objections": {
+  "from": [
+   "Nusrat",
+   "Kamal"
+  ],
+  "rule": "each grateful one strikes two wrong options in one Level 15 trial question"
+ }
+}

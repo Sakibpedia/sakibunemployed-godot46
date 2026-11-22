@@ -1,0 +1,87 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="S M Nazmuz Sakib is unemployed"
+config/description="এস এম নাজমুয সাকিব বেকার: যাত্রাবাড়ীর ওপেন-ওয়ার্ল্ড গেম। Developed by S M Nazmuz Sakib."
+config/version="0.3.0-openworld"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.6", "Forward Plus")
+boot_splash/bg_color=Color(0.07, 0.07, 0.08, 1)
+boot_splash/image="res://boot_splash.png"
+config/icon="res://icon.png"
+
+[audio]
+
+general/text_to_speech=true
+
+[autoload]
+
+Game="*res://scripts/core/Game.gd"
+GameState="*res://autoload/GameState.gd"
+Services="*res://autoload/Services.gd"
+AudioEventBus="*res://autoload/AudioEventBus.gd"
+PhysicsEventBus="*res://autoload/PhysicsEventBus.gd"
+Voice="*res://scripts/dialogue/Voice.gd"
+Exams="*res://scripts/exam/ExamDirector.gd"
+Missions="*res://scripts/missions/MissionDirector.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+window/handheld/orientation=4
+
+[layer_names]
+
+3d_physics/layer_1="world"
+3d_physics/layer_2="people"
+3d_physics/layer_3="vehicles"
+3d_physics/layer_4="player"
+3d_physics/layer_5="ghosts"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=3
+global_illumination/gi/use_half_resolution=true
+textures/default_filters/anisotropic_filtering_level=3
+environment/ssao/quality=3
+anti_aliasing/quality/use_debanding=true
+scaling_3d/fsr_sharpness=0.25
+global_illumination/sdfgi/probe_ray_count=3
+global_illumination/sdfgi/frames_to_converge=2
+environment/volumetric_fog/volume_size=96
+environment/volumetric_fog/volume_depth=96
+anti_aliasing/quality/screen_space_aa=2
+occlusion_culling/use_occlusion_culling=true
+
+[shader_globals]
+
+dhaka_night={
+"type": "float",
+"value": 0.0
+}
+dhaka_power_a={
+"type": "vec4",
+"value": Vector4(1, 1, 1, 1)
+}
+dhaka_power_b={
+"type": "float",
+"value": 1.0
+}

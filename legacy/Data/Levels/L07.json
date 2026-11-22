@@ -1,0 +1,255 @@
+{
+ "level": 7,
+ "title": "Paper stock",
+ "chapter": "Chapter 2 · The Tower",
+ "brief": "Tomorrow's papers are being packed on the Tower's upper floors. Steal enough to prove it, then get to the roof before the watchman locks it.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                    B",
+   "B ######################             B",
+   "B #.>>>>.#.............#             B",
+   "B #......#.............#             B",
+   "B #G############D#######             B",
+   "B #.2.................L#             B",
+   "B #....................#             B",
+   "B #.........P..........#             B",
+   "B #.......Y.......Y....#             B",
+   "B #....................#             B",
+   "B #..P..............P..#             B",
+   "B #....................#             B",
+   "B ##########D###########             B",
+   "B #                    #             B",
+   "B #               1 c  #             B",
+   "B #                    #             B",
+   "B ##########  ##########             B",
+   "B------------------------------------B",
+   "B=====@=========C====================B",
+   "B====================================B",
+   "B-----------------------------C------B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #.<<<<.#.............#",
+   "  ######D#######D#######",
+   "  #.P..........X....P.L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#x..x..#......#",
+   "  #......#..3...#...4..#",
+   "  #......#....x.#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.>>>>.#........x.4..#",
+   "  #.    .#.........x...#",
+   "  #D############D#######",
+   "  #...X.....P........PL#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #..4...#......#......#",
+   "  #.x....#......#......#",
+   "  #......#......#....6.#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ########||||||||||||||",
+   "  #.    .#,,,,,,,,,,,,,|",
+   "  #....5.#,,,,,,,,,w,w,|",
+   "  ######G#,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,9,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|",
+   "  ||||||||||||||||||||||",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Rasel",
+   "grateful": [
+    "reveal:45",
+    "resource:ammo:12"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Stair guard",
+   "gate": "L07_stairs",
+   "look": "goon",
+   "intro": "Upstairs is packing day. Nobody goes up unless they can answer."
+  },
+  "3": {
+   "type": "career",
+   "person": "Sohel",
+   "lines": [
+    "Shh. I pack the papers for them. I hate it, bhai."
+   ]
+  },
+  "4": {
+   "type": "pickup",
+   "key": "paper",
+   "label": "Take a bundle of leaked papers",
+   "toast": "A bundle of tomorrow's question papers, still warm from the press."
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Roof watchman",
+   "gate": "L07_roof",
+   "look": "guard",
+   "intro": "The roof is mine until six. Ten questions, seven right, and you can have it."
+  },
+  "6": {
+   "type": "bypass",
+   "key": "canopy",
+   "label": "Climb out over the canopy to the roof (noisy)",
+   "to": "9",
+   "gate": "L07_roof",
+   "noise": 66,
+   "toast": "Tin sheets groan under you, then you're over the parapet."
+  },
+  "9": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Rasel",
+   "text": "Rasel is parked in the compound: talk to him"
+  },
+  {
+   "type": "gate",
+   "gate": "L07_stairs",
+   "text": "Get past the stair guard"
+  },
+  {
+   "type": "talk",
+   "person": "Sohel",
+   "text": "Find Sohel among the paper packers on the first floor"
+  },
+  {
+   "type": "pickup",
+   "key": "paper",
+   "count": 3,
+   "text": "Steal the leaked paper stock"
+  },
+  {
+   "type": "gate",
+   "gate": "L07_roof",
+   "text": "Get onto the roof before 17:30: answer the roof watchman, or climb the canopy from the second floor"
+  },
+  {
+   "type": "reach",
+   "marker": "9",
+   "text": "Step out onto the roof"
+  }
+ ],
+ "gates": {
+  "L07_stairs": {
+   "gatekeeper": "stair guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 300
+  },
+  "L07_roof": {
+   "gatekeeper": "roof watchman",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "bribe": 600
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 15.0,
+ "palette": "tower",
+ "sector": "tower_floor7",
+ "crowd": 25,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 90,
+ "roof_floor": 3,
+ "deadline_hour": 17.5,
+ "deadline_text": "Half past five: the watchman has locked the roof and the papers are gone.",
+ "block_height": 18.0,
+ "roofed": true
+}

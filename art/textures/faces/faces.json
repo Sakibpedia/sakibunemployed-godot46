@@ -1,0 +1,572 @@
+{
+ "faces": [
+  {
+   "id": "sakib",
+   "female": false,
+   "age": 28,
+   "skin": [
+    0.64,
+    0.46,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "curly",
+   "facial": "beard",
+   "note": "Sakib: curly hair, full beard, tired eyes (from his own photo)",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_young_clean",
+   "female": false,
+   "age": 21,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "short",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_mustache",
+   "female": false,
+   "age": 38,
+   "skin": [
+    0.47,
+    0.32,
+    0.22
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "short",
+   "facial": "mustache",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_beard_full",
+   "female": false,
+   "age": 45,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.08,
+    0.06,
+    0.05
+   ],
+   "style": "short",
+   "facial": "beard",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_elder_white",
+   "female": false,
+   "age": 68,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.82,
+    0.81,
+    0.78
+   ],
+   "style": "receding",
+   "facial": "white_beard",
+   "note": "",
+   "earrings": "",
+   "glasses": true,
+   "bindi": false
+  },
+  {
+   "id": "m_stubble_dark",
+   "female": false,
+   "age": 30,
+   "skin": [
+    0.38,
+    0.25,
+    0.18
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "crop",
+   "facial": "stubble",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_goon_scar",
+   "female": false,
+   "age": 33,
+   "skin": [
+    0.47,
+    0.32,
+    0.22
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "crop",
+   "facial": "goatee",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_henna_beard",
+   "female": false,
+   "age": 58,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.55,
+    0.54,
+    0.52
+   ],
+   "style": "receding",
+   "facial": "henna_beard",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_curly_young",
+   "female": false,
+   "age": 22,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "curly",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_glasses_mid",
+   "female": false,
+   "age": 41,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "side_part",
+   "facial": "mustache",
+   "note": "",
+   "earrings": "",
+   "glasses": true,
+   "bindi": false
+  },
+  {
+   "id": "m_round_clean",
+   "female": false,
+   "age": 35,
+   "skin": [
+    0.78,
+    0.6,
+    0.47
+   ],
+   "hair": [
+    0.08,
+    0.06,
+    0.05
+   ],
+   "style": "short",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "m_beard_trim",
+   "female": false,
+   "age": 29,
+   "skin": [
+    0.47,
+    0.32,
+    0.22
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "crop",
+   "facial": "beard",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_young",
+   "female": true,
+   "age": 22,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "long_middle",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_nosepin",
+   "female": true,
+   "age": 29,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.08,
+    0.06,
+    0.05
+   ],
+   "style": "long_middle",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_wheat",
+   "female": true,
+   "age": 25,
+   "skin": [
+    0.78,
+    0.6,
+    0.47
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "long_side",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_elder",
+   "female": true,
+   "age": 62,
+   "skin": [
+    0.47,
+    0.32,
+    0.22
+   ],
+   "hair": [
+    0.55,
+    0.54,
+    0.52
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": true,
+   "bindi": false
+  },
+  {
+   "id": "f_lawyer_bun",
+   "female": true,
+   "age": 32,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "gold_hoop",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_wavy_side",
+   "female": true,
+   "age": 27,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.13,
+    0.08,
+    0.06
+   ],
+   "style": "long_side",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_soft_bun",
+   "female": true,
+   "age": 38,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "stud",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_cateye",
+   "female": true,
+   "age": 30,
+   "skin": [
+    0.78,
+    0.6,
+    0.47
+   ],
+   "hair": [
+    0.08,
+    0.06,
+    0.05
+   ],
+   "style": "long_middle",
+   "facial": "clean",
+   "note": "",
+   "earrings": "jhumka",
+   "glasses": true,
+   "bindi": false
+  },
+  {
+   "id": "f_straight_smile",
+   "female": true,
+   "age": 24,
+   "skin": [
+    0.78,
+    0.6,
+    0.47
+   ],
+   "hair": [
+    0.13,
+    0.08,
+    0.06
+   ],
+   "style": "long_middle",
+   "facial": "clean",
+   "note": "",
+   "earrings": "",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_round_bindi",
+   "female": true,
+   "age": 28,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "jhumka",
+   "glasses": false,
+   "bindi": true
+  },
+  {
+   "id": "f_matron_bindi",
+   "female": true,
+   "age": 50,
+   "skin": [
+    0.69,
+    0.5,
+    0.37
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "gold_hoop",
+   "glasses": false,
+   "bindi": true
+  },
+  {
+   "id": "f_saree_elder2",
+   "female": true,
+   "age": 58,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.55,
+    0.54,
+    0.52
+   ],
+   "style": "bun",
+   "facial": "clean",
+   "note": "",
+   "earrings": "gold_hoop",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_red_hair",
+   "female": true,
+   "age": 26,
+   "skin": [
+    0.78,
+    0.6,
+    0.47
+   ],
+   "hair": [
+    0.36,
+    0.07,
+    0.08
+   ],
+   "style": "long_side",
+   "facial": "clean",
+   "note": "",
+   "earrings": "jhumka",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_bold_kajal",
+   "female": true,
+   "age": 34,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "long_side",
+   "facial": "clean",
+   "note": "",
+   "earrings": "stud",
+   "glasses": false,
+   "bindi": false
+  },
+  {
+   "id": "f_flower_bun",
+   "female": true,
+   "age": 30,
+   "skin": [
+    0.6,
+    0.42,
+    0.3
+   ],
+   "hair": [
+    0.045,
+    0.04,
+    0.038
+   ],
+   "style": "bun_flowers",
+   "facial": "clean",
+   "note": "",
+   "earrings": "jhumka",
+   "glasses": false,
+   "bindi": true
+  }
+ ],
+ "mapping": "equirectangular; u = 0.5 faces -Z; v = 0 top"
+}

@@ -1,0 +1,262 @@
+{
+ "level": 8,
+ "title": "Kites over Jatrabari",
+ "chapter": "Chapter 3 · The roofs",
+ "brief": "Shirin's network needs signal relays on the roofs and a kite in the sky. The roof doors lock at 6 PM, and after six the syndicate puts snipers on the water tanks.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                            B",
+   "B ######################  RRRRRRRR  RRRRRRRR B",
+   "B #.>>>>.#.............#  RRRRRRRR  RRRRRRRR B",
+   "B #......#.............#  RRRRRRRR  RRRRRRRR B",
+   "B #D############D#######  RRRRRRRR  RRRRRRRR B",
+   "B #...................L#  RRRRRRRR  RRRRRRRR B",
+   "B #....................#  RRRRRRRR  RRRRRRRR B",
+   "B #....................#  RRRRRRRR  RRRRRRRR B",
+   "B #...........Y........#  RRRRRRRR  RRRRRRRR B",
+   "B #....................#                     B",
+   "B #....................#                     B",
+   "B #....................#  RRRRRRRR  RRRRRRRR B",
+   "B ##########D###########  RRRRRRRR  RRRRRRRR B",
+   "B #                    #  RRRRRRRR  RRRRRRRR B",
+   "B #                    #  RRRRRRRR  RRRRRRRR B",
+   "B #                    #  RRRRRRRR  RRRRRRRR B",
+   "B ##########  ##########  RRRRRRRR  RRRRRRRR B",
+   "B                         RRRRRRRR  RRRRRRRR B",
+   "B                         RRRRRRRR  RRRRRRRR B",
+   "B                                           8B",
+   "B                                            B",
+   "B--------------------------------------------B",
+   "B=========C==================================B",
+   "B=======================================E====B",
+   "B-----------------------------C--------------B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #.<<<<.#.............#",
+   "  ######D#######D#######",
+   "  #...................L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.>>>>.#.............#",
+   "  #.    .#.............#",
+   "  #D############D#######",
+   "  #...................L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ########||||||||||||||  ||||||||  ||||||||",
+   "  #.    .#,,,,,,,,,,,,,|  |,p,,p,|  |,,#,,,|",
+   "  #......#,,,,,,,,,,,,,|  |,,,2,,|  |,5#,w,|",
+   "  ######K#,,,,,,,,,,,,,|  |,l,,,,,%%,,,G,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,,%%,,,,,,,|  |,,G,,,|",
+   "  |,,,,,,,,,,,,,,,,,,,,|  |,p,,,,|  |,,#,,,|",
+   "  |,,,,,,,,,@,,,,,,,P,,|  |,,,,3,|  |3,#,,,|",
+   "  |,,,,,,,,,,,1,,,,,,,,|  |||,||||  ||||,|||",
+   "  |,,,P,,,,,,,,,,,Y,,,,|     %          %",
+   "  |,,,,,,,,,,,,,,,,,,,,|     %          %",
+   "  |,,,,,,,,,,,P,,,,,,,,|  |||,||||  ||||,|||",
+   "  ||||||||||||||||||||||  |w,,,,Z|  |,,,,,Z|",
+   "                          |,,,,P,|  |,,,,z,|",
+   "                          |,,,,,,|  |,,4,,,|",
+   "                          |,,,,,,,%%,,,,,,,|",
+   "                          |,,,3,,|  |,,,,,,|",
+   "                          |XP,,,,|  |,,,,,7|",
+   "                          ||||||||  ||||||||",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Kite seller",
+   "gate": "L08_kite",
+   "intro": "A fighter kite for a grown man? Fine. But these lines cross live wires. Tell me you know what that means."
+  },
+  "2": {
+   "type": "career",
+   "person": "Farzana",
+   "lines": [
+    "Careful of my chillies. You look like you need advice more than I do. Or do I?"
+   ]
+  },
+  "3": {
+   "type": "task",
+   "key": "relay",
+   "label": "Set up Shirin's signal relay",
+   "toast": "The relay blinks green."
+  },
+  "4": {
+   "type": "task",
+   "key": "kite",
+   "label": "Fly the red kite: the signal",
+   "toast": "The red kite climbs over Jatrabari. Every roof that matters sees it."
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Water-tank man",
+   "gate": "L08_tank",
+   "intro": "This side of the roof is the syndicate's lookout. My tanks, my questions."
+  },
+  "7": {
+   "type": "bypass",
+   "key": "drainpipe",
+   "label": "Slide down the drainpipe (noisy)",
+   "to": "8",
+   "noise": 60,
+   "toast": "You hit the lane hard, but you're down."
+  },
+  "8": {
+   "type": "spot"
+  },
+  "K": {
+   "type": "roof_door",
+   "axis": "x"
+  }
+ },
+ "objectives": [
+  {
+   "type": "gate",
+   "gate": "L08_kite",
+   "text": "Buy a fighter kite from the kite seller on the Tower roof"
+  },
+  {
+   "type": "talk",
+   "person": "Farzana",
+   "text": "Cross the plank and talk to Farzana in her roof garden"
+  },
+  {
+   "type": "task",
+   "key": "relay",
+   "count": 3,
+   "text": "Set up three signal relays across the roofs"
+  },
+  {
+   "type": "gate",
+   "gate": "L08_tank",
+   "text": "Get past the water-tank man on the east roof"
+  },
+  {
+   "type": "task",
+   "key": "kite",
+   "text": "Fly the kite from the far roof"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Get down to the street: the Tower's roof door locks at 6 PM (or slide down the drainpipe)"
+  }
+ ],
+ "gates": {
+  "L08_kite": {
+   "gatekeeper": "kite seller",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "LW-SHOCK"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   }
+  },
+  "L08_tank": {
+   "gatekeeper": "water-tank man",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 300
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 15.5,
+ "palette": "street",
+ "sector": "tower_roof",
+ "crowd": 30,
+ "roof_rule": true,
+ "snipers_after_6": true,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "roof_floor": 3,
+ "block_height": 18.0,
+ "roofed": true
+}

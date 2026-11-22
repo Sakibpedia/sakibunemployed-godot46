@@ -1,0 +1,25 @@
+{
+ "gate_id": "L01_doorman",
+ "level": 1,
+ "gatekeeper": "doorman",
+ "category": "door",
+ "size": 5,
+ "pass_points": 3.0,
+ "draw": {
+  "sets": [
+   "G"
+  ]
+ },
+ "chain": {
+  "max_depth": 3,
+  "recovered_points": 0.5
+ },
+ "on_pass": [
+  "door:tower_gate:open"
+ ],
+ "on_fail": [
+  "alert:+10",
+  "retry_after_game_min:60"
+ ],
+ "bypass": "climb:parking_wall"
+}

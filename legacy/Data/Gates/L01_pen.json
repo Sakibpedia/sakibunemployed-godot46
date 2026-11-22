@@ -1,0 +1,33 @@
+{
+ "gate_id": "L01_pen",
+ "level": 1,
+ "gatekeeper": "Kajla Superstore clerk",
+ "category": "purchase",
+ "size": 5,
+ "pass_points": 3.0,
+ "draw": {
+  "sets": [
+   "MAT-PEN"
+  ]
+ },
+ "chain": {
+  "max_depth": 3
+ },
+ "scripted": [
+  {
+   "at": 1,
+   "item": "PEN1",
+   "chain": [
+    "PEN2",
+    "PEN3",
+    "PEN4"
+   ]
+  }
+ ],
+ "on_pass": [
+  "give:exam_pen"
+ ],
+ "on_fail": [
+  "price:double"
+ ]
+}

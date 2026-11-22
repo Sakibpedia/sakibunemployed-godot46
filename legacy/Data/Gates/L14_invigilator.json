@@ -1,0 +1,24 @@
+{
+ "gate_id": "L14_invigilator",
+ "level": 14,
+ "gatekeeper": "invigilator",
+ "category": "timed",
+ "size": 10,
+ "pass_points": 7.0,
+ "draw": {
+  "sets": [
+   "G"
+  ]
+ },
+ "timer_s": 20,
+ "chain": {
+  "max_depth": 3,
+  "lock_after_wrong_in_row": 3
+ },
+ "on_pass": [
+  "cover:kept"
+ ],
+ "on_fail": [
+  "suspicion:+30"
+ ]
+}

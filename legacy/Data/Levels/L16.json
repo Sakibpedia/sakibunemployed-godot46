@@ -1,0 +1,197 @@
+{
+ "level": 16,
+ "title": "The river press",
+ "chapter": "Chapter 6 · The Buriganga",
+ "brief": "The syndicate prints its copies across the river. Imran's father owns the only boat that will go.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbB",
+   "B,,@,,,,,,,,,,,,,,,,,,,,,,T,,,bbbbbbbbbbbbbbbB",
+   "B,,,,,,,k,,,T,,,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbB",
+   "B,,,T,,,,,,,,,,,,,,,,,C,,,,,,,bbbbbbbbbbbbbbbB",
+   "B,,,,,,,,C,,,,P,,,,,,,,,,,,,,,bbbbbbbbbbbbbbbB",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,Y,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,1,,,,,,,,,,,,,,,P,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,C,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "BWWWWWWWWWWWWWWWWWoWWWoWWWWWWWWWWWWWWWWWWWWWWB",
+   "BWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWB",
+   "BWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWB",
+   "BWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWB",
+   "BWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWB",
+   "BWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWB",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,X,,,,,P,,B",
+   "B,,,,,,,,,,,8,,,,,,,,,,,######GG###########,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,P,#,P,Y,,,,,,,,,,Y,,#,,B",
+   "B,,,,,,,,,,,,,,,X,,,,,,,#,#######D#######,#,,B",
+   "B,,,,,,,,,P,,,,,,,,,,,,,#,#x...........x#,#,,B",
+   "B,,,,,,,T,,,,,,,,,,,,,,,#,#..g......g...#,#,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,#,#...6......6..#P#,,B",
+   "B,,,E,,,,,,,,,,,,,T,,,,,#,###############,#,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,###################,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "career",
+   "person": "Imran",
+   "lines": [
+    "Baba says the river is all I need. Is it?"
+   ]
+  },
+  "2": {
+   "type": "callback",
+   "person": "Shirin",
+   "grateful": [
+    "waive_gates:1",
+    "toast:Shirin's story ran. The boatman reads it and waves you aboard."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "3": {
+   "type": "driver",
+   "name": "Boatman",
+   "gate": "L16_boatman",
+   "key": "boat",
+   "to": "8",
+   "minutes": 20,
+   "text": "The boat noses across the brown water to the press bank."
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Press guard",
+   "gate": "L16_pressguard",
+   "look": "guard",
+   "intro": "Delivery? Prove you can read what you're delivering."
+  },
+  "6": {
+   "type": "task",
+   "key": "press",
+   "label": "Jam the press rollers",
+   "noise": 58,
+   "toast": "Grinding, then silence."
+  },
+  "8": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Imran",
+   "text": "Talk to Imran at the ghat"
+  },
+  {
+   "type": "talk",
+   "person": "Shirin",
+   "text": "Shirin is on the steps: talk to her"
+  },
+  {
+   "type": "gate",
+   "gate": "L16_boatman",
+   "text": "Persuade the boatman to take you across"
+  },
+  {
+   "type": "ride",
+   "key": "boat",
+   "text": "Cross the river"
+  },
+  {
+   "type": "gate",
+   "gate": "L16_pressguard",
+   "text": "Get past the press guard"
+  },
+  {
+   "type": "task",
+   "key": "press",
+   "count": 2,
+   "text": "Jam both printing presses"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Slip away along the south bank"
+  }
+ ],
+ "gates": {
+  "L16_boatman": {
+   "gatekeeper": "boatman",
+   "category": "ride",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "compose": [
+    {
+     "sets": [
+      "VEH-BOAT"
+     ],
+     "count": 5
+    },
+    {
+     "sets": [
+      "RS"
+     ],
+     "count": 2
+    },
+    {
+     "sets": [
+      "G"
+     ],
+     "count": 3
+    }
+   ],
+   "no_bribe": true
+  },
+  "L16_pressguard": {
+   "gatekeeper": "press guard",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 350
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 13.5,
+ "palette": "green",
+ "sector": "river_ghat",
+ "crowd": 25,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 180,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

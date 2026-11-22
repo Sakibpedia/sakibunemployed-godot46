@@ -1,0 +1,11 @@
+# Godot
+.godot/
+*.import.tmp
+# Builds made by export_all.* (keep the marker that stops Godot importing them)
+build/*
+!build/.gdignore
+# Python
+__pycache__/
+# Never commit signing keys
+*.keystore
+*.jks

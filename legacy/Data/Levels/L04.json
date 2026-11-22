@@ -1,0 +1,200 @@
+{
+ "level": 4,
+ "title": "Dania College",
+ "chapter": "Chapter 1 · Dania College",
+ "brief": "Nusrat is calling a students' meeting at the Shaheed Minar about the fake admit cards. The proof is in the admissions ledger, locked in the principal's record room.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                          B",
+   "B ######################################## B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,#############,,,,,,,,,,,,,############ B",
+   "B #,#....#.....p#,,,,,,,,,,,,,#..........# B",
+   "B #,#.t..#...t..#,,,,,,,,,,,,,#.t.t......# B",
+   "B #,#....#..4...#,,,,,,,,,,,,,#..........# B",
+   "B #,#.5..G......#,,,,h,,,,,,,,#......6...G B",
+   "B #,#....#......#,,,,,,,,,,,,,#.t.t......# B",
+   "B #,#..t.#......#,,,,3,,,,,,,,#..........#EB",
+   "B #,#....#.....p#,,,,,,,,,,,,,#..........# B",
+   "B #,######D######,C,,,,,,,,,,,#####D###### B",
+   "B #,,,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,n,,,,,,,,,T,,,,,,,,,,,,,,# B",
+   "B #,,T,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,T,,,,,,# B",
+   "B #,,,,,,,,,P,,,,,,,,,,,,,,,,,P,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,C,,,,,,,,,,,,n,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,P,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,T,,,,,,,,,,,,,,,,,,,C,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,T,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,7,,7,,,,,,,,,,,,,,,,,# B",
+   "B #,,,,,,,,,,,,,,,,,,,@,,,,,,,,,,,,,,,,,,# B",
+   "B ###################  ################### B",
+   "B------------------------------------------B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "3": {
+   "type": "career",
+   "person": "Nusrat",
+   "lines": [
+    "You're the one who keeps failing BCS on purpose, aren't you? Joking. Sit."
+   ]
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Principal",
+   "gate": "L04_principal",
+   "look": "teacher",
+   "intro": "The record room? For a former student of this college... ten questions. Seven right."
+  },
+  "5": {
+   "type": "pickup",
+   "key": "ledger",
+   "label": "Take the admissions ledger",
+   "toast": "The ledger: forty admit cards issued to names nobody has seen in class."
+  },
+  "6": {
+   "type": "gatekeeper",
+   "name": "Librarian",
+   "gate": "L04_librarian",
+   "look": "teacher",
+   "intro": "The back door is for readers. Prove you are one."
+  },
+  "7": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Nusrat",
+   "text": "Find Nusrat at the Shaheed Minar"
+  },
+  {
+   "type": "survive",
+   "seconds": 45,
+   "text": "The syndicate's boys storm the meeting: hold out",
+   "waves": [
+    {
+     "at": 0,
+     "marker": "7",
+     "role": "goon",
+     "count": 3,
+     "text": "Goons pour in through the main gate."
+    },
+    {
+     "at": 18,
+     "marker": "7",
+     "role": "gunman",
+     "count": 2,
+     "text": "Two of them are armed."
+    }
+   ]
+  },
+  {
+   "type": "gate",
+   "gate": "L04_principal",
+   "text": "Get the principal to open the record room"
+  },
+  {
+   "type": "pickup",
+   "key": "ledger",
+   "text": "Take the admissions ledger from the record room"
+  },
+  {
+   "type": "gate",
+   "gate": "L04_librarian",
+   "text": "Get the librarian to open the library's back door"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Leave by the library's back door"
+  }
+ ],
+ "gates": {
+  "L04_principal": {
+   "gate_id": "L04_principal",
+   "level": 4,
+   "gatekeeper": "principal",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ],
+    "exclude_seen_in_level": true,
+    "spaced_repetition": true
+   },
+   "timer_s": 0,
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5,
+    "lock_after_wrong_in_row": 3
+   },
+   "scripted": [
+    {
+     "at": 6,
+     "item": "G20",
+     "chain": [
+      "P10a",
+      "P10b",
+      "G14"
+     ],
+     "on_chain_cleared": "unlock:record_room"
+    }
+   ],
+   "on_pass": [
+    "door:college_admin:open"
+   ],
+   "on_fail": [
+    "alert:+10",
+    "retry_after_game_min:60"
+   ],
+   "bypass": "climb:admin_drainpipe",
+   "opens": "gate0"
+  },
+  "L04_librarian": {
+   "gatekeeper": "librarian",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "SP"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1"
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 12.0,
+ "palette": "green",
+ "sector": "dania_college",
+ "crowd": 0,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 0,
+ "aliases": {
+  "record_room": "gate0"
+ },
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

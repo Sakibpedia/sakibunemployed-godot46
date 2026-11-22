@@ -1,0 +1,154 @@
+{
+ "level": 18,
+ "title": "The armoury",
+ "chapter": "Chapter 7 · Under Kajla",
+ "brief": "The syndicate's guns are in a basement under the Kajla market. Every wounded man down here has something to confess.",
+ "floors": [
+  [
+   "########################################",
+   "########################################",
+   "########################################",
+   "################.........#............##",
+   "################.........#...x........##",
+   "################.......y.#.....P...6..##",
+   "################.........#..X.........##",
+   "################.........#............##",
+   "################........4#.5..........##",
+   "################.........#........x...##",
+   "################.......y.#...x...X....##",
+   "################.........#.P........x.##",
+   "################.........#............##",
+   "####################D##########GG#######",
+   "####################.##########..3######",
+   "##......X.......P..................X..##",
+   "##..P.....................X.........P.##",
+   "##...........#####D###########D#########",
+   "##..P.....Y..#.........###............##",
+   "##....1......#.........###............##",
+   "##..c...r....#.2.....2.###....Y.......##",
+   "##...........#.........###............##",
+   "##.@......c..#....2....###........P.E.##",
+   "##...........#.........###............##",
+   "########################################",
+   "########################################"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Babu",
+   "grateful": [
+    "resource:ammo:24",
+    "toast:Babu ran the armoury's stock out in his CNG last night. Take what's left."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "captive",
+   "name": "Armoury man (tied up)",
+   "interrogate": true,
+   "tag": "lt",
+   "sit": true,
+   "look": "goon",
+   "intro": "Babu's drivers caught me. Ask, then. If you know your books, I'll tell you where the guns are."
+  },
+  "3": {
+   "type": "gatekeeper",
+   "name": "Armoury guard",
+   "gate": "L18_armoury",
+   "look": "goon",
+   "intro": "Ten questions, seven right, and maybe I forget I saw you."
+  },
+  "4": {
+   "type": "bypass",
+   "key": "breach",
+   "label": "Blow the side wall with the gas cylinder (very loud)",
+   "to": "5",
+   "gate": "L18_armoury",
+   "noise": 95,
+   "toast": "The wall comes down in a cloud of plaster. Everyone in the basement heard that."
+  },
+  "5": {
+   "type": "spot"
+  },
+  "6": {
+   "type": "captive",
+   "name": "Rumi",
+   "person": "Rumi",
+   "female": true,
+   "key": "Rumi",
+   "if_flag": "rumi_moved_to_armoury",
+   "line": "Sakib? I knew you'd lose that trial on purpose. Joking. Get me out."
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Babu",
+   "text": "Babu drove you in: talk to him in the garage"
+  },
+  {
+   "type": "interrogate",
+   "tag": "lt",
+   "count": 3,
+   "text": "Question the three armoury men tied up next door"
+  },
+  {
+   "type": "gate",
+   "gate": "L18_armoury",
+   "text": "Get into the armoury: answer the guard, or blow the side wall"
+  },
+  {
+   "type": "free",
+   "key": "Rumi",
+   "if_flag": "rumi_moved_to_armoury",
+   "text": "Free Rumi"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Out through the loading bay"
+  }
+ ],
+ "gates": {
+  "L18_armoury": {
+   "gatekeeper": "armoury guard",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 800
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 20.0,
+ "palette": "night",
+ "sector": "basement",
+ "crowd": 0,
+ "last_wish_cap": 4,
+ "lw_share": 1.0,
+ "player_yaw": 0,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

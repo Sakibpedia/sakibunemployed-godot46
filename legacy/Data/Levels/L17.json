@@ -1,0 +1,156 @@
+{
+ "level": 17,
+ "title": "The mela",
+ "chapter": "Chapter 6 · Jatrabari mela",
+ "brief": "The last copies of the leak move through the Pohela Falgun mela, hand to hand in the crowd.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,@,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,l,,,,,,,l,,,,,,,l,,,,,,,l,,,,,,,l,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,P,,,,,,,,,,,Y,,,,,,,P,,,,,,,3,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TB",
+   "B,,,k,,,k,,,k1,,k,,,k,,,k,,,k,,,k,,,k,,,k,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,C,,,,,,,,,C,,,,,,,,,,,,,,,C,,,,,P,,,,B",
+   "B,T,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,k,,,k,,,k,,,k,,,x4,,k,,,k,,,k,,,k,,,k,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,3,,,,P,,,,,,,,,C,,,,,Y,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,Y,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,,k,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,C,,,,,,,,,P,,,,,C,,,,,,,,,X,,,,B",
+   "B,T,,,,,,,z,,,,,,,,,,,,,,,,,,,z,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B",
+   "B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Salt seller",
+   "gate": "L17_salt",
+   "look": "shopkeeper",
+   "intro": "Iodised or not, babu? Know your salt before you buy it."
+  },
+  "2": {
+   "type": "callback",
+   "person": "Arif",
+   "grateful": [
+    "reveal:60",
+    "calm"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "3": {
+   "type": "courier",
+   "name": "Mela courier",
+   "key": "leak",
+   "found": "A roll of answer sheets wrapped in a jilapi bag."
+  },
+  "4": {
+   "type": "gatekeeper",
+   "name": "Quiz-board man",
+   "gate": "L17_board",
+   "intro": "Mela quiz! Three questions, win a prize, lose your pride."
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Arif",
+   "text": "Find Arif at the mela"
+  },
+  {
+   "type": "gate",
+   "gate": "L17_salt",
+   "text": "Buy salt from the salt seller (the cover story for your disguise)"
+  },
+  {
+   "type": "search",
+   "key": "leak",
+   "count": 2,
+   "text": "Find and search the two couriers in the crowd"
+  },
+  {
+   "type": "gate",
+   "gate": "L17_board",
+   "text": "Win the quiz board at the centre stall"
+  },
+  {
+   "type": "reach",
+   "marker": "E",
+   "text": "Leave by the south-east corner"
+  }
+ ],
+ "gates": {
+  "L17_salt": {
+   "gatekeeper": "salt seller",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-SALT"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   }
+  },
+  "L17_board": {
+   "gatekeeper": "quiz-board man",
+   "category": "board",
+   "size": 3,
+   "pass_points": 2.0,
+   "draw": {
+    "sets": [
+     "P2"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "no_bribe": true,
+   "story_gate": true,
+   "level_on_pass": [
+    "resource:taka:300",
+    "tokens:1"
+   ]
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 15.0,
+ "palette": "street",
+ "sector": "mela",
+ "crowd": 140,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 135,
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

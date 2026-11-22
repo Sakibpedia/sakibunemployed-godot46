@@ -1,0 +1,248 @@
+{
+ "level": 5,
+ "title": "Load-shedding",
+ "chapter": "Chapter 2 · The Tower",
+ "brief": "The syndicate runs its paper operation from the Tower's upper floors. The mains are off, the generator keeps their lift and lights going, and the doorman keeps the stairs.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                    B",
+   "B ######################             B",
+   "B #.>>>>.#...........mm#  T          B",
+   "B #......#.............#             B",
+   "B #G############D#######             B",
+   "B #.5.................L#             B",
+   "B #....................#    x k      B",
+   "B #.................P..#    x   2    B",
+   "B #.......Y...3........#      1      B",
+   "B #...P................#             B",
+   "B #.........P......Y...#             B",
+   "B #....................#         C   B",
+   "B ##########D###########             B",
+   "B #                    #           T B",
+   "B # g4                 #             B",
+   "B #                    #             B",
+   "B ##########  ##########             B",
+   "B------------------------------------B",
+   "B=======C=====================@======B",
+   "B====================================B",
+   "B-------------------------C----------B",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #.<<<<.#.............#",
+   "  ######D#######D#######",
+   "  #.......X..P......P.L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.>>>>.#.............#",
+   "  #.    .#.............#",
+   "  #D############D#######",
+   "  #.P........P.X......L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ######################",
+   "  #.    .#.............#",
+   "  #......#.............#",
+   "  ######D#######D#######",
+   "  #...X......P......P.L#",
+   "  ###D######D######D####",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  #......#..9...#......#",
+   "  #......#......#......#",
+   "  #......#......#......#",
+   "  ######################",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "career",
+   "person": "Habib",
+   "lines": [
+    "Batteries, bhai? Every load-shedding I sell out."
+   ]
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Habib's apprentice",
+   "gate": "L05_battery",
+   "intro": "Before I sell you anything with acid in it, tell me how it works."
+  },
+  "3": {
+   "type": "callback",
+   "person": "Tanvir",
+   "grateful": [
+    "utility:generator",
+    "done:utility:generator",
+    "utility:cctv",
+    "reveal:30"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "4": {
+   "type": "utility",
+   "key": "generator",
+   "label": "Pull the generator's fuel line",
+   "utility": "generator"
+  },
+  "5": {
+   "type": "gatekeeper",
+   "name": "Doorman",
+   "gate": "L05_doorman",
+   "look": "doorman",
+   "intro": "The stairs are closed. Ten questions today, seven right. The syndicate pays me to be strict."
+  },
+  "9": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Habib",
+   "text": "Talk to Habib at his battery stall"
+  },
+  {
+   "type": "gate",
+   "gate": "L05_battery",
+   "text": "Buy batteries for your phone (the notebook's lookouts need them)"
+  },
+  {
+   "type": "talk",
+   "person": "Tanvir",
+   "text": "Find Tanvir in the Tower lobby"
+  },
+  {
+   "type": "utility",
+   "key": "generator",
+   "text": "Sabotage the generator in the compound: the lift and the lights die"
+  },
+  {
+   "type": "gate",
+   "gate": "L05_doorman",
+   "text": "Get the doorman to unlock the stairs"
+  },
+  {
+   "type": "reach",
+   "marker": "9",
+   "text": "Climb to the fourth floor corridor"
+  }
+ ],
+ "gates": {
+  "L05_battery": {
+   "gatekeeper": "Habib's apprentice",
+   "category": "purchase",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "MAT-BAT"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "level_on_pass": [
+    "resource:batteries:2"
+   ]
+  },
+  "L05_doorman": {
+   "gatekeeper": "doorman",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "bribe": 500
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 13.0,
+ "palette": "tower",
+ "sector": "tower_street",
+ "crowd": 35,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": 90,
+ "on_start": [
+  "utility:power"
+ ],
+ "roof_floor": 3,
+ "block_height": 18.0,
+ "roofed": true
+}

@@ -1,0 +1,198 @@
+{
+ "level": 11,
+ "title": "Before dawn",
+ "chapter": "Chapter 4 · Shonir Akhra",
+ "brief": "Tomorrow at dawn the neighbourhood marches to the Shaheed Minar. Tonight the syndicate plans to break it up. Sakib has to be there first.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "BbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbB",
+   "Bb#####################bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#################,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#...............#,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#.t..t..t..t..t.#,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#...............#,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#...............#,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,####D#######D####,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,,,,,,,,,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#######,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#.....G,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#.5...#2,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb#,#######,,,,,,,,,,,#bbbbbbbbbbbbbbbbbbbbB",
+   "Bb##########GG#########bbbbbbbbbbbbbbbbbbbbB",
+   "B             1                            B",
+   "B----------------------------646-----------B",
+   "B===P===================6=3=6==============B",
+   "B=@=======X==============6=6============P==B",
+   "B--------------------------------X---------B",
+   "B                                          B",
+   "B                     T             u      B",
+   "B     T         P   X                      B",
+   "B                           P       7 X    B",
+   "B             T                            B",
+   "B                                 ,,,######B",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb   #,,,,h,,#B",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb   #,,,,9,,#B",
+   "Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb   #########B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "gatekeeper",
+   "name": "Headmaster",
+   "gate": "L11_headmaster",
+   "look": "teacher",
+   "intro": "School's closed for the procession. Ten questions and I'll believe you're a teacher."
+  },
+  "2": {
+   "type": "gatekeeper",
+   "name": "Bangla teacher",
+   "gate": "L11_bangla",
+   "look": "teacher",
+   "intro": "The storeroom? Recite me your literature first."
+  },
+  "3": {
+   "type": "career",
+   "person": "Shirin",
+   "lines": [
+    "I'm writing about the leak. Will anyone print it?"
+   ]
+  },
+  "4": {
+   "type": "callback",
+   "person": "Rina Apa",
+   "grateful": [
+    "calm",
+    "reveal:45"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "5": {
+   "type": "task",
+   "key": "sleep",
+   "label": "Sleep in the storeroom until dawn",
+   "skip_to": 5.5,
+   "toast": "You wake to the azan. It is the morning of the 21st."
+  },
+  "6": {
+   "type": "civilian",
+   "name": "Marcher",
+   "static": true
+  },
+  "7": {
+   "type": "task",
+   "key": "soundtruck",
+   "label": "Pull the plug on the syndicate's sound truck",
+   "noise": 50,
+   "toast": "The truck's speakers die mid-slogan."
+  },
+  "9": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Shirin",
+   "text": "Talk to Shirin in the procession"
+  },
+  {
+   "type": "talk",
+   "person": "Rina Apa",
+   "text": "Rina Apa is walking with her study circle: talk to her"
+  },
+  {
+   "type": "gate",
+   "gate": "L11_headmaster",
+   "text": "Get the headmaster to let you into the school"
+  },
+  {
+   "type": "gate",
+   "gate": "L11_bangla",
+   "text": "Get the Bangla teacher to open the storeroom"
+  },
+  {
+   "type": "task",
+   "key": "sleep",
+   "text": "Hide in the storeroom until dawn"
+  },
+  {
+   "type": "task",
+   "key": "soundtruck",
+   "text": "Silence the syndicate's sound truck"
+  },
+  {
+   "type": "eliminate",
+   "tag": "attacker",
+   "count": 4,
+   "text": "Stop the men sent to break up the dawn march"
+  },
+  {
+   "type": "reach",
+   "marker": "9",
+   "text": "Reach the Shaheed Minar"
+  }
+ ],
+ "gates": {
+  "L11_headmaster": {
+   "gatekeeper": "headmaster",
+   "category": "door",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate1",
+   "bribe": 500
+  },
+  "L11_bangla": {
+   "gatekeeper": "Bangla teacher",
+   "category": "door",
+   "size": 5,
+   "pass_points": 3.0,
+   "draw": {
+    "sets": [
+     "SP"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "opens": "gate0",
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 14.0,
+ "palette": "street",
+ "sector": "shonir_akhra",
+ "crowd": 45,
+ "last_wish_cap": 2,
+ "lw_share": 0.35,
+ "player_yaw": -90,
+ "marker_tags": {
+  "X": "attacker"
+ },
+ "roof_floor": 1,
+ "block_height": 18.0,
+ "roofed": true
+}

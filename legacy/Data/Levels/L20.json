@@ -1,0 +1,255 @@
+{
+ "level": 20,
+ "title": "Before six",
+ "chapter": "Chapter 8 · The roofs",
+ "brief": "Kibria is on the roofs with his last snipers, waiting for the papers that will never arrive. The roof doors lock at six. This ends before then.",
+ "floors": [
+  [
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+   "B                                            B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B RRRRRRRRRRRRRR                             B",
+   "B RRRRRRRRRRRRRR                             B",
+   "B                                            B",
+   "B                 RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B bbbbbbbbbbbbbb  RRRRRRRRRR  RRRRRRRRRRRR   B",
+   "B--------------------------------------------B",
+   "B=========C=============================C====B",
+   "B========================C===================B",
+   "B--------------------------------------------B",
+   "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  [
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ],
+  [
+   " ",
+   " ",
+   "  ||||||||||||||  ||||||||||  ||||||||||||",
+   "  |,,,,,w,,,,,,|  |,,,,,,,w|  |,,,,,,,,,w|",
+   "  |,8,,,,,,,,8,|  |,,,,,2,,|  |,,,,,,,Z,,|",
+   "  |,,,,,,,,,,,,|  |,,,,,,,,,%%,,,,,,,,,,,|",
+   "  |,,,@,,,,,,,,,%%,,,,,,,,,|  |,,,l,,,,,,|",
+   "  |,,,,,,,,,,,,|  |,l,,,,,,|  |,,,,,,,,,,|",
+   "  |,,,,,,,1,,,,|  |,,,,,,,,|  |z,,,,,,,,,|",
+   "  |,,8,,,,,,,,,|  ||||,|||||  |||||,||||||",
+   "  |,,,,,,,,,z,,|      %            %",
+   "  ||||||||||||||      %            %",
+   "                      %            %",
+   "                  ||||,|||||  |||||,||||||",
+   "                  |,,,,,,,,|  |P,,,,,,,,,|",
+   "                  |,9,,,,,,|  |,,,,,X,,,,|",
+   "                  |,,,,,,,,|  |,,5,,,,,,,|",
+   "                  |,,,,,,,,|  |,,,,,,,,,P|",
+   "                  |,,,,,,,,,%%,,,,,,,,,,,|",
+   "                  |,,,,,,,,|  |,,,,,,,,,,|",
+   "                  |,,,,,,Z,|  |,X,,,,,,Z,|",
+   "                  |w,,,,,,,|  |,,P,,,,,,,|",
+   "                  ||||||||||  ||||||||||||",
+   " ",
+   " ",
+   " ",
+   " ",
+   " "
+  ]
+ ],
+ "legend": {
+  "1": {
+   "type": "callback",
+   "person": "Masud",
+   "grateful": [
+    "ally:8:3",
+    "reveal:60",
+    "toast:Masud arrives with three honest police officers."
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "delay:20",
+    "bitter"
+   ]
+  },
+  "2": {
+   "type": "callback",
+   "person": "Imran",
+   "grateful": [
+    "remove_sniper"
+   ],
+   "mixed": [
+    "resource:ammo:6"
+   ],
+   "bitter": [
+    "bitter"
+   ]
+  },
+  "5": {
+   "type": "boss",
+   "name": "Kibria",
+   "gate": "L20_duel",
+   "look": "boss",
+   "intro": "Kibria straightens his panjabi. 'Before six, then. Ten questions, thirty seconds each, two of them law. Your way.'"
+  },
+  "8": {
+   "type": "spot"
+  },
+  "9": {
+   "type": "spot"
+  }
+ },
+ "objectives": [
+  {
+   "type": "talk",
+   "person": "Masud",
+   "text": "Masud has come up the back stairs: talk to him"
+  },
+  {
+   "type": "talk",
+   "person": "Imran",
+   "text": "Cross to the next roof and talk to Imran"
+  },
+  {
+   "type": "reach",
+   "marker": "9",
+   "text": "Cross the planks to the south roofs"
+  },
+  {
+   "type": "eliminate",
+   "tag": "sniper",
+   "count": 3,
+   "text": "Take down the three snipers"
+  },
+  {
+   "type": "gate",
+   "gate": "L20_duel",
+   "text": "Face Kibria before six"
+  }
+ ],
+ "gates": {
+  "L20_duel": {
+   "gatekeeper": "Kibria",
+   "category": "duel",
+   "size": 10,
+   "pass_points": 7.0,
+   "draw": {
+    "sets": [
+     "G"
+    ]
+   },
+   "chain": {
+    "max_depth": 3,
+    "recovered_points": 0.5
+   },
+   "compose": [
+    {
+     "sets": [
+      "G"
+     ],
+     "count": 8
+    },
+    {
+     "sets": [
+      "BAR"
+     ],
+     "count": 2
+    }
+   ],
+   "timer_s": 30,
+   "no_bribe": true
+  }
+ },
+ "prayers": {
+  "05:00": "Fajr",
+  "13:15": "Zuhr",
+  "16:30": "Asr",
+  "17:50": "Maghrib",
+  "19:30": "Isha"
+ },
+ "start_hour": 16.6,
+ "palette": "street",
+ "sector": "rooftops",
+ "crowd": 0,
+ "last_wish_cap": 3,
+ "lw_share": 0.4,
+ "player_yaw": -90,
+ "roof_floor": 3,
+ "deadline_hour": 18.0,
+ "marker_tags": {
+  "Z": "sniper"
+ },
+ "deadline_text": "Six o'clock. The roof doors lock and Kibria walks away.",
+ "block_height": 18.0,
+ "roofed": true
+}
